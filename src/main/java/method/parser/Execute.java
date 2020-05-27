@@ -19,7 +19,7 @@ import java.util.List;
 public class Execute {
     public static void listMethodCalls(File projectDir) {
         new DirExplorer((level, path, file) -> path.endsWith(".java"), (level, path, file) -> {
-            System.out.println(path);
+            System.out.println(file.getAbsolutePath());
             System.out.println(Strings.repeat("=", path.length()));
             try {
                 new VoidVisitorAdapter<Object>() {
@@ -32,6 +32,7 @@ public class Execute {
                     @Override
                     public void visit(MethodDeclaration aMethod, Object arg) {
                         System.out.println(aMethod.getDeclarationAsString(true, false));
+                        System.out.println();
                         System.out.println("{");
                         String declaredMethod = aMethod.getNameAsString();
                         List<MethodCallExpr> callExprList = aMethod.findAll(MethodCallExpr.class);
