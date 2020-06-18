@@ -72,10 +72,10 @@ public class Execute {
     }
 
     public static void main(String[] args) {
-        File projectDir = new File("/home/ishtiaque/Desktop/projects/testCallGraph/src/test");
+        File projectDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src/test");
         TypeSolver myTypeSolver = new CombinedTypeSolver(
                 new ReflectionTypeSolver(),
-                new JavaParserTypeSolver(new File("/home/ishtiaque/Desktop/projects/testCallGraph/src/main/java"))
+                new JavaParserTypeSolver(new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src/main/java"))
         );
         TypeSolver typeSolver = new ReflectionTypeSolver();
         JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
