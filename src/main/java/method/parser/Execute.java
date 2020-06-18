@@ -73,13 +73,35 @@ public class Execute {
 
     public static void main(String[] args) {
         File projectDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src/test");
-        TypeSolver myTypeSolver = new CombinedTypeSolver(
-                new ReflectionTypeSolver(),
-                new JavaParserTypeSolver(new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src/main/java"))
-        );
-        TypeSolver typeSolver = new ReflectionTypeSolver();
+        File srcDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src");
+        TypeSolver myTypeSolver;
+        CombinedTypeSolver cbSolver = new CombinedTypeSolver(new JavaParserTypeSolver(srcDir), new ReflectionTypeSolver());
+        if(srcDir.exists() && srcDir.isDirectory()){
+            File fileArr[] = srcDir.listFiles();
+            myTypeSolver = addAllSrcPath(fileArr, cbSolver);
+//            System.out.println(myTypeSolver);
+        } else {
+            myTypeSolver = cbSolver;
+        }
+//            TypeSolver myTypeSolver = new CombinedTypeSolver(
+//                new ReflectionTypeSolver(),
+//                new JavaParserTypeSolver(new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src/main/java/demo/nested")),
+//                new JavaParserTypeSolver(new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src/main/java/demo"))
+//        );
+//        TypeSolver typeSolver = new ReflectionTypeSolver();
         JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
         StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
         listMethodCalls(projectDir);
+    }
+
+    public static TypeSolver addAllSrcPath(File[] files, CombinedTypeSolver myTypeSolver) {
+        for(File f: files) {
+            if(f.isDirectory() && !f.isFile() && !f.getAbsolutePath().contains("src/test")) {
+//                System.out.println(f.getAbsolutePath());
+                myTypeSolver.add(new JavaParserTypeSolver(new File(f.getAbsolutePath())));
+                addAllSrcPath(f.listFiles(), myTypeSolver);
+            }
+        }
+        return myTypeSolver;
     }
 }

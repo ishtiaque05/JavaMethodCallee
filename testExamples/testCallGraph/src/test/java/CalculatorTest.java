@@ -15,6 +15,7 @@ public class CalculatorTest {
         int result = calculator.add(2, 2);
         int result2 =  c.add(4,4);
         int result3 = ec.add(5,5);
+        System.out.println(result3);
         // Then
         if (result != 4) {   // if 2 + 2 != 4
             Assert.fail();

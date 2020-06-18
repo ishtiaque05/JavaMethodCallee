@@ -1,4 +1,4 @@
-package demo;
+package demo.nested;
 
 public class Calculator {
     public Calculator() {
