@@ -1,14 +1,22 @@
 package method.parser;
+import com.github.javaparser.JavaParser;
+import com.github.javaparser.ParseResult;
+import com.github.javaparser.ParserConfiguration;
 import com.github.javaparser.StaticJavaParser;
+import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.body.MethodDeclaration;
 import com.github.javaparser.ast.expr.MethodCallExpr;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.resolution.MethodUsage;
+import com.github.javaparser.resolution.UnsolvedSymbolException;
 import com.github.javaparser.resolution.declarations.ResolvedMethodDeclaration;
+import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.javaparsermodel.JavaParserFacade;
 import com.github.javaparser.symbolsolver.model.resolution.SymbolReference;
 import com.github.javaparser.symbolsolver.model.resolution.TypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
+import com.github.javaparser.symbolsolver.resolution.typesolvers.JavaParserTypeSolver;
+import com.github.javaparser.symbolsolver.resolution.typesolvers.ReflectionTypeSolver;
 import com.google.common.base.Strings;
 import method.parser.DirExplorer;
 
@@ -19,7 +27,11 @@ import java.util.List;
 public class Execute {
     public static void listMethodCalls(File projectDir) {
         new DirExplorer((level, path, file) -> path.endsWith(".java"), (level, path, file) -> {
-            System.out.println(file.getAbsolutePath());
+            try {
+                System.out.println(file.getCanonicalPath());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             System.out.println(Strings.repeat("=", path.length()));
             try {
                 new VoidVisitorAdapter<Object>() {
@@ -37,40 +49,37 @@ public class Execute {
                         String declaredMethod = aMethod.getNameAsString();
                         List<MethodCallExpr> callExprList = aMethod.findAll(MethodCallExpr.class);
                         for (MethodCallExpr callExpr : callExprList) {
-                            String calledMethodName = callExpr.getName().getIdentifier();
-                            System.out.println(calledMethodName);
-//                            visitMethodCall(callExpr, arg, declaredMethod);
-//                            CombinedTypeSolver solver = typeSolver(srcFolders);
-//                            JavaParserFacade j = JavaParserFacade.get(solver);
-//                            SymbolReference<ResolvedMethodDeclaration> methodRef = j.solve(callExpr);
-//                            String methodSignature = methodRef.getCorrespondingDeclaration().getQualifiedSignature();
-//                            if(methodSignature.contains("javax.security.auth") || methodSignature.contains("javax") || methodSignature.contains("security") || methodSignature.contains("auth")) {
-//                                System.out.println(methodSignature);
-//                            }
+//                          Getting corresponding method declaration
+//                          JavaParserFacade.get(new JavaParserTypeSolver("/home/ishtiaque/Desktop/projects/testCallGraph/src/main/java")).solve(callExpr);
+                            callExpr.resolve().toAst();
+                            System.out.println(callExpr.resolve().getQualifiedName());
+                            System.out.println(callExpr.resolve().toAst().get().getRange().get().begin.line);
+                            System.out.println(callExpr.resolve().toAst().get().getParentNode().get().findCompilationUnit().get().getStorage().get().getPath());
                         }
                         System.out.println("}\n");
                         super.visit(aMethod, arg);
 
                     }
-
-                    public void visitMethodCall(MethodCallExpr n, Object arg, String declaredMethod) {
-                        super.visit(n, arg);
-                    }
-
-                    @Override
-                    public void visit(MethodCallExpr n, Object arg) {
-                        super.visit(n, arg);
-                    }
                 }.visit(StaticJavaParser.parse(file), null);
                 System.out.println(); // empty line
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+            } catch (UnsolvedSymbolException usym) {
+                System.out.println(usym);
+            }
+            catch (Exception e) {
+                System.out.println(e);
             }
         }).explore(projectDir);
     }
 
     public static void main(String[] args) {
-        File projectDir = new File("/home/ishtiaque/Desktop/projects/examples");
+        File projectDir = new File("/home/ishtiaque/Desktop/projects/testCallGraph/src/test");
+        TypeSolver myTypeSolver = new CombinedTypeSolver(
+                new ReflectionTypeSolver(),
+                new JavaParserTypeSolver(new File("/home/ishtiaque/Desktop/projects/testCallGraph/src/main/java"))
+        );
+        TypeSolver typeSolver = new ReflectionTypeSolver();
+        JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
+        StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
         listMethodCalls(projectDir);
     }
 }
