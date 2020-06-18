@@ -9,7 +9,7 @@ import java.util.List;
 public class CalculatorTest {
 
     @Test
-    public void testSum() {
+    public void testSum(int x) {
         // Given
         Calculator calculator = new Calculator();
         Calculator2 c = new Calculator2();
