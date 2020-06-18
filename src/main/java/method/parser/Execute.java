@@ -21,6 +21,7 @@ public class Execute {
     public static int jUnitUnsolved = 0;
     public static List<String> errsMsg = new ArrayList<String>();;
     public static List<TestMethodInfo> tmethods = new ArrayList<TestMethodInfo>();
+    static List<String> testDirsPaths = new ArrayList<String>();
     final static Logger logger = Logger.getLogger(Execute.class);
     public static void listMethodCalls(File projectDir) {
         new DirExplorer((level, path, file) -> path.endsWith(".java"), (level, path, file) -> {
@@ -39,6 +40,7 @@ public class Execute {
                             CalledMethodInfo cMethod = new CalledMethodInfo();
                             tmethod.calledMethods = new ArrayList<CalledMethodInfo>();
                             cMethod.name = callExpr.getNameAsString();
+                            System.out.println(callExpr.resolve().getQualifiedSignature());
                             cMethod.className = resolvedMethod.getClassName();
                             cMethod.fullQualifiedSignature = resolvedMethod.getQualifiedSignature();
                             cMethod.packageName = resolvedMethod.getPackageName();
@@ -46,9 +48,10 @@ public class Execute {
                             cMethod.startline = resolvedMethod.toAst().get().getRange().get().begin.line;
                             cMethod.path = resolvedMethod.toAst().get().getParentNode().get().findCompilationUnit().get().getStorage().get().getPath().toString();
                             tmethod.calledMethods.add(cMethod);
-                            tmethods.add(tmethod);
                             Execute.solved++;
                         }
+                        System.out.println("I AM HERE");
+                        tmethods.add(tmethod);
                         super.visit(aMethod, arg);
                     }
                 }.visit(StaticJavaParser.parse(file), null);
@@ -71,8 +74,9 @@ public class Execute {
     }
 
     public static void main(String[] args) {
+
         // TODO: take this as parameter from args
-        File testDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src/test");
+
         File srcDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/");
         String repoName = "abc";
 
@@ -85,9 +89,32 @@ public class Execute {
         JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
         StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
 
-        listMethodCalls(testDir);
-        JsonWriter.writeToJSON("sample.json", tmethods);
+        File testDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src/test");
+        File repo = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph");
+        Execute.findTestDirs(repo);
+//        Execute.listMethodCalls(testDir);
+        Execute.startProcessing();
+
+        JsonWriter.writeToJSON(Settings.OUTPATH+repoName+".json", tmethods);
 
         logger.info(repoName+ " JavaSolverStats Solved: "+Execute.solved+ " UnsolvedAssertions:"+ Execute.jUnitUnsolved + " UnsolvedWithoutJunit:" +Execute.unsolved + " Errors: "+ Execute.errors);
+    }
+
+    public static void startProcessing() {
+        for (String file : testDirsPaths) {
+            Execute.listMethodCalls(new File(file));
+        }
+    }
+
+    public static void findTestDirs(final File folder) {
+        for (final File f : folder.listFiles()) {
+            if (f.getAbsolutePath().endsWith("src/test") && f.isDirectory()) {
+                testDirsPaths.add(f.getAbsolutePath());
+            } else if (f.isDirectory()) {
+                findTestDirs(f);
+            } else {
+                continue;
+            }
+        }
     }
 }

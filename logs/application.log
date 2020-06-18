@@ -1,0 +1,28 @@
+2020-06-18 14:44:06 ERROR Execute:68 - java.util.NoSuchElementException: No value present
+2020-06-18 14:44:06 INFO  Execute:91 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:34:14 ERROR Execute:69 - java.util.NoSuchElementException: No value present
+2020-06-18 16:34:14 INFO  Execute:98 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:35:15 ERROR Execute:69 - java.util.NoSuchElementException: No value present
+2020-06-18 16:35:15 INFO  Execute:98 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:37:42 ERROR Execute:69 - java.util.NoSuchElementException: No value present
+2020-06-18 16:37:42 INFO  Execute:98 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:41:10 ERROR Execute:69 - java.util.NoSuchElementException: No value present
+2020-06-18 16:41:10 INFO  Execute:98 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:42:54 ERROR Execute:70 - java.util.NoSuchElementException: No value present
+2020-06-18 16:42:54 INFO  Execute:99 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:43:39 ERROR Execute:70 - java.util.NoSuchElementException: No value present
+2020-06-18 16:43:39 INFO  Execute:99 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:44:07 ERROR Execute:70 - java.util.NoSuchElementException: No value present
+2020-06-18 16:44:07 INFO  Execute:99 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:44:44 ERROR Execute:70 - java.util.NoSuchElementException: No value present
+2020-06-18 16:44:44 INFO  Execute:99 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:45:04 ERROR Execute:71 - java.util.NoSuchElementException: No value present
+2020-06-18 16:45:04 INFO  Execute:100 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:51:02 ERROR Execute:71 - java.util.NoSuchElementException: No value present
+2020-06-18 16:51:02 INFO  Execute:100 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:51:20 ERROR Execute:71 - java.util.NoSuchElementException: No value present
+2020-06-18 16:51:20 INFO  Execute:100 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:51:38 ERROR Execute:71 - java.util.NoSuchElementException: No value present
+2020-06-18 16:51:38 INFO  Execute:100 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:52:31 ERROR Execute:71 - java.util.NoSuchElementException: No value present
+2020-06-18 16:52:32 INFO  Execute:100 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
