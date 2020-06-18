@@ -7,9 +7,6 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.resolution.UnsolvedSymbolException;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.model.resolution.TypeSolver;
-import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
-import com.github.javaparser.symbolsolver.resolution.typesolvers.JavaParserTypeSolver;
-import com.github.javaparser.symbolsolver.resolution.typesolvers.ReflectionTypeSolver;
 import com.google.common.base.Strings;
 
 import java.io.File;
@@ -33,12 +30,6 @@ public class Execute {
             System.out.println(Strings.repeat("=", path.length()));
             try {
                 new VoidVisitorAdapter<Object>() {
-//                    @Override
-//                    public void visit(MethodCallExpr n, Object arg) {
-//                        super.visit(n, arg);
-//                        System.out.println(" [L " + n.getBegin().get().line + "] " + n);
-//                    }
-
                     @Override
                     public void visit(MethodDeclaration aMethod, Object arg) {
                         System.out.println(aMethod.getDeclarationAsString(true, false));
@@ -77,30 +68,23 @@ public class Execute {
     }
 
     public static void main(String[] args) {
+
+        // TODO: take this as parameter from args
         File testDir = new File("/home/ishtiaque/Desktop/projects/Research/commons-lang/src/test");
         File srcDir = new File("/home/ishtiaque/Desktop/projects/Research/commons-lang/src");
-        TypeSolver myTypeSolver;
-        CombinedTypeSolver cbSolver = new CombinedTypeSolver(new JavaParserTypeSolver(srcDir), new ReflectionTypeSolver());
-        if(srcDir.exists() && srcDir.isDirectory()){
-            File fileArr[] = srcDir.listFiles();
-            myTypeSolver = addAllSrcPath(fileArr, cbSolver);
-        } else {
-            myTypeSolver = cbSolver;
-        }
+
+        // Intialize the solver by adding all the source path
+        MethodTypeSolver mts = new MethodTypeSolver(srcDir);
+        mts.addSolverSrc(srcDir.listFiles());
+        TypeSolver myTypeSolver = mts.getSolver();
+
+        // Configure the JavaParser to use the solver for parsing
         JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
         StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
+
         listMethodCalls(testDir);
         System.out.println("Solved: "+Execute.solved+ " Unsolved Assertions:"+ Execute.jUnitUnsolved + " Unsolved without Junit:" +Execute.unsolved + " Errors: "+ Execute.errors);
         System.out.println(Execute.errsMsg);
     }
 
-    public static TypeSolver addAllSrcPath(File[] files, CombinedTypeSolver myTypeSolver) {
-        for(File f: files) {
-            if(f.isDirectory() && !f.isFile() && !f.getAbsolutePath().contains("src/test")) {
-                myTypeSolver.add(new JavaParserTypeSolver(new File(f.getAbsolutePath())));
-                addAllSrcPath(f.listFiles(), myTypeSolver);
-            }
-        }
-        return myTypeSolver;
-    }
 }
