@@ -26,3 +26,29 @@
 2020-06-18 16:51:38 INFO  Execute:100 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
 2020-06-18 16:52:31 ERROR Execute:71 - java.util.NoSuchElementException: No value present
 2020-06-18 16:52:32 INFO  Execute:100 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:56:28 ERROR Execute:74 - java.util.NoSuchElementException: No value present
+2020-06-18 16:56:28 INFO  Execute:103 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:58:37 ERROR Execute:75 - java.util.NoSuchElementException: No value present
+2020-06-18 16:58:37 INFO  Execute:104 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 16:59:28 ERROR Execute:75 - java.util.NoSuchElementException: No value present
+2020-06-18 16:59:28 INFO  Execute:104 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 1
+2020-06-18 17:02:22 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertTrue(srcDir.exists())', cause='null'}
+2020-06-18 17:02:22 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertEquals(0, 0)', cause='null'}
+2020-06-18 17:02:22 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertEquals(1, 1)', cause='null'}
+2020-06-18 17:02:22 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail()', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-18 17:02:22 INFO  Execute:102 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:4 Errors: 0
+2020-06-18 17:03:16 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertTrue(srcDir.exists())', cause='null'}
+2020-06-18 17:03:16 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertEquals(0, 0)', cause='null'}
+2020-06-18 17:03:16 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertEquals(1, 1)', cause='null'}
+2020-06-18 17:03:16 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail()', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-18 17:03:16 INFO  Execute:102 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:4 Errors: 0
+2020-06-18 17:05:29 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertTrue(srcDir.exists())', cause='null'}
+2020-06-18 17:05:29 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertEquals(0, 0)', cause='null'}
+2020-06-18 17:05:29 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertEquals(1, 1)', cause='null'}
+2020-06-18 17:05:29 ERROR Execute:61 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail()', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-18 17:06:00 INFO  Execute:101 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:4 Errors: 0
+2020-06-18 17:09:33 ERROR Execute:60 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertTrue(srcDir.exists())', cause='null'}
+2020-06-18 17:09:33 ERROR Execute:60 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertEquals(0, 0)', cause='null'}
+2020-06-18 17:09:33 ERROR Execute:60 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to assertEquals(1, 1)', cause='null'}
+2020-06-18 17:09:33 ERROR Execute:60 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail()', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-18 17:09:33 INFO  Execute:100 - abc JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:4 Errors: 0

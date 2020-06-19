@@ -11,6 +11,7 @@ import com.github.javaparser.symbolsolver.model.resolution.TypeSolver;
 import org.apache.log4j.Logger;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,40 +36,39 @@ public class Execute {
                         tmethod.methodSignature = aMethod.getSignature().asString();
                         tmethod.path = aMethod.getParentNode().get().findCompilationUnit().get().getStorage().get().getPath().toString();
                         List<MethodCallExpr> callExprList = aMethod.findAll(MethodCallExpr.class);
+                        tmethod.calledMethods = new ArrayList<CalledMethodInfo>();
                         for (MethodCallExpr callExpr : callExprList) {
-                            ResolvedMethodDeclaration resolvedMethod = callExpr.resolve();
-                            CalledMethodInfo cMethod = new CalledMethodInfo();
-                            tmethod.calledMethods = new ArrayList<CalledMethodInfo>();
-                            cMethod.name = callExpr.getNameAsString();
-                            System.out.println(callExpr.resolve().getQualifiedSignature());
-                            cMethod.className = resolvedMethod.getClassName();
-                            cMethod.fullQualifiedSignature = resolvedMethod.getQualifiedSignature();
-                            cMethod.packageName = resolvedMethod.getPackageName();
-                            cMethod.signature = resolvedMethod.getSignature();
-                            cMethod.startline = resolvedMethod.toAst().get().getRange().get().begin.line;
-                            cMethod.path = resolvedMethod.toAst().get().getParentNode().get().findCompilationUnit().get().getStorage().get().getPath().toString();
-                            tmethod.calledMethods.add(cMethod);
-                            Execute.solved++;
+                            try {
+                                ResolvedMethodDeclaration resolvedMethod = callExpr.resolve();
+                                CalledMethodInfo cMethod = new CalledMethodInfo();
+                                cMethod.name = callExpr.getNameAsString();
+                                System.out.println(callExpr.resolve().getQualifiedSignature());
+                                cMethod.className = resolvedMethod.getClassName();
+                                cMethod.fullQualifiedSignature = resolvedMethod.getQualifiedSignature();
+                                cMethod.packageName = resolvedMethod.getPackageName();
+                                cMethod.signature = resolvedMethod.getSignature();
+                                cMethod.startline = resolvedMethod.toAst().get().getRange().get().begin.line;
+                                cMethod.path = resolvedMethod.toAst().get().getParentNode().get().findCompilationUnit().get().getStorage().get().getPath().toString();
+                                tmethod.calledMethods.add(cMethod);
+                                Execute.solved++;
+                            } catch (UnsolvedSymbolException usym) {
+                                if (usym.getName().contains("junit")) {
+                                    Execute.jUnitUnsolved++;
+                                } else {
+                                    Execute.unsolved++;
+                                }
+                                logger.error("Unsolved Exception" + usym);
+                                System.out.println("Unsolved Exception:" + usym);
+                            } catch (Exception e) {
+                                System.out.println(e);
+                            }
                         }
-                        System.out.println("I AM HERE");
                         tmethods.add(tmethod);
                         super.visit(aMethod, arg);
                     }
                 }.visit(StaticJavaParser.parse(file), null);
-            } catch (UnsolvedSymbolException usym) {
-                if(usym.getName().contains("junit")) {
-                    Execute.jUnitUnsolved++;
-                } else {
-                    Execute.unsolved++;
-                }
-                logger.error("Unsolved Exception" + usym);
-                System.out.println("Unsolved Exception:"+ usym);
-            }
-            catch (Exception e) {
-                Execute.errors++;
-                System.out.println(e.getMessage());
-                Execute.errsMsg.add(e.getMessage());
-                logger.error(e);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
             }
         }).explore(projectDir);
     }
