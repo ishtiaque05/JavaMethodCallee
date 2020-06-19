@@ -42,7 +42,6 @@ public class Execute {
                                 ResolvedMethodDeclaration resolvedMethod = callExpr.resolve();
                                 CalledMethodInfo cMethod = new CalledMethodInfo();
                                 cMethod.name = callExpr.getNameAsString();
-                                System.out.println(callExpr.resolve().getQualifiedSignature());
                                 cMethod.className = resolvedMethod.getClassName();
                                 cMethod.fullQualifiedSignature = resolvedMethod.getQualifiedSignature();
                                 cMethod.packageName = resolvedMethod.getPackageName();
@@ -58,17 +57,16 @@ public class Execute {
                                     Execute.unsolved++;
                                 }
                                 logger.error("Unsolved Exception" + usym);
-                                System.out.println("Unsolved Exception:" + usym);
                             } catch (Exception e) {
-                                System.out.println(e);
+                                logger.error(e);
                             }
                         }
                         tmethods.add(tmethod);
                         super.visit(aMethod, arg);
                     }
                 }.visit(StaticJavaParser.parse(file), null);
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
+            } catch (Exception e) {
+                logger.error(e);
             }
         }).explore(projectDir);
     }
@@ -76,9 +74,8 @@ public class Execute {
     public static void main(String[] args) {
 
         // TODO: take this as parameter from args
-
-        File srcDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/");
-        String repoName = "abc";
+        File srcDir = new File("/home/ishtiaque/Desktop/projects/Research/pmd");
+        String repoName = "checkstyle";
 
         // Intialize the solver by adding all the source path
         MethodTypeSolver mts = new MethodTypeSolver(srcDir);
@@ -89,10 +86,7 @@ public class Execute {
         JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
         StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
 
-        File testDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph/src/test");
-        File repo = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/testCallGraph");
-        Execute.findTestDirs(repo);
-//        Execute.listMethodCalls(testDir);
+        Execute.findTestDirs(srcDir);
         Execute.startProcessing();
 
         JsonWriter.writeToJSON(Settings.OUTPATH+repoName+".json", tmethods);

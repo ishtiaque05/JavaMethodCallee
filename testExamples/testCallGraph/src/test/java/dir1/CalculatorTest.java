@@ -1,3 +1,4 @@
+package dir1;
 import demo.Calculator;
 import demo.*;
 import junit.framework.Assert;
@@ -14,6 +15,7 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         Calculator2 c = new Calculator2();
         ExtraCalculator ec = new ExtraCalculator();
+        Divide d = new Divide();
         // When
         int result = calculator.add(2, 2);
         int result2 =  c.add(4,4);
