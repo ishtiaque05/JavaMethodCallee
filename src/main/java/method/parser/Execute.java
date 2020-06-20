@@ -9,7 +9,6 @@ import com.github.javaparser.resolution.declarations.ResolvedMethodDeclaration;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.model.resolution.TypeSolver;
 import org.apache.log4j.Logger;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -20,7 +19,6 @@ public class Execute {
     public static int testMethodsCount = 0, calledMethodsCount = 0;
     public static List<String> errsMsg = new ArrayList<String>();;
     public static List<TestMethodInfo> tmethods = new ArrayList<TestMethodInfo>();
-    static List<String> testDirsPaths = new ArrayList<String>();
     final static Logger logger = Logger.getLogger(Execute.class);
     public static void listMethodCalls(File projectDir) {
         new DirExplorer((level, path, file) -> path.endsWith(".java"), (level, path, file) -> {
@@ -66,10 +64,10 @@ public class Execute {
     }
 
     public static void main(String[] args) {
-
         // TODO: take this as parameter from args
-        File srcDir = new File("/home/ishtiaque/Desktop/projects/Research/pmd");
-        String repoName = "pmd";
+//        File srcDir = new File(Settings.REPOS_PATH+args[0]);
+        File srcDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/java-junit-sample");
+        String repoName = "sample-junit";
 
         // Intialize the solver by adding all the source path
         MethodTypeSolver mts = new MethodTypeSolver(srcDir);
@@ -79,32 +77,20 @@ public class Execute {
         // Configure the JavaParser to use the solver for parsing
         JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
         StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
-
-        Execute.findTestDirs(srcDir);
-        Execute.startProcessing();
+        Execute.startProcessing(mts);
 
         JsonWriter.writeToJSON(Settings.OUTPATH+repoName+".json", tmethods);
 
         logger.info(repoName+ " JavaSolverStats Solved: "+Execute.solved+ " UnsolvedAssertions:"+ Execute.assertionUnsolved + " UnsolvedWithoutJunit:" +Execute.unsolved + " Errors: "+ Execute.errors);
     }
 
-    public static void startProcessing() {
-        for (String file : testDirsPaths) {
+    public static void startProcessing(MethodTypeSolver mts) {
+        // Getting all the test directories path
+        List<String> testPathsDirs = mts.getTestDirsPaths();
+        for (String file : testPathsDirs) {
             System.out.println("Start Processing test folder " + file);
             Execute.listMethodCalls(new File(file));
-            System.out.println("Start Processing Test folder " + file);
-        }
-    }
-
-    public static void findTestDirs(final File folder) {
-        for (final File f : folder.listFiles()) {
-            if (f.getAbsolutePath().endsWith("src/test") && f.isDirectory()) {
-                testDirsPaths.add(f.getAbsolutePath());
-            } else if (f.isDirectory()) {
-                findTestDirs(f);
-            } else {
-                continue;
-            }
+            System.out.println("Done Processing Test folder " + file);
         }
     }
 }
