@@ -22,6 +22,7 @@ public class Execute {
     final static Logger logger = Logger.getLogger(Execute.class);
     public static void listMethodCalls(File projectDir) {
         new DirExplorer((level, path, file) -> path.endsWith(".java"), (level, path, file) -> {
+            System.out.println("Processing file:" + file.getAbsolutePath());
             try {
                 new VoidVisitorAdapter<Object>() {
                     @Override
@@ -65,10 +66,9 @@ public class Execute {
     }
 
     public static void main(String[] args) {
-        // TODO: take this as parameter from args
-//        File srcDir = new File(Settings.REPOS_PATH+args[0]);
-        File srcDir = new File("/home/ishtiaque/Desktop/projects/JavaMethodCallee/testExamples/java-junit-sample");
-        String repoName = "sample-junit";
+
+        File srcDir = new File(Settings.REPOS_PATH+args[0]);
+        String repoName = args[0];
 
         // Intialize the solver by adding all the source path
         MethodTypeSolver mts = new MethodTypeSolver(srcDir);
