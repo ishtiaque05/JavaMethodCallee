@@ -50,6 +50,7 @@ public class Execute {
                                 }
                                 logger.error("Unsolved Exception" + usym);
                             } catch (Exception e) {
+                                Execute.errors++;
                                 logger.error(e);
                             }
                         }

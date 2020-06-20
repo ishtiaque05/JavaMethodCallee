@@ -306,3 +306,136 @@
 2020-06-19 18:15:18 ERROR Execute:53 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
 2020-06-19 18:15:18 ERROR Execute:53 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
 2020-06-19 18:15:18 INFO  Execute:85 - sample-junit JavaSolverStats Solved: 24 UnsolvedAssertions:7 UnsolvedWithoutJunit:63 Errors: 0
+2020-06-19 19:50:37 ERROR Execute:53 - java.util.NoSuchElementException: No value present
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='MockitoAnnotations.initMocks(this)', name='MockitoAnnotations', cause='UnsolvedSymbolException{context='MockitoAnnotations', name='Solving MockitoAnnotations', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='when(itemRepositoryeMock.findById(item.getId())).thenReturn(item)', name='when(itemRepositoryeMock.findById(item.getId()))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.mockito.PowerMockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='PowerMockito.when(StaticService.getMultiplicator()).thenReturn(multiplicator)', name='PowerMockito.when(StaticService.getMultiplicator())', cause='UnsolvedSymbolException{context='PowerMockito', name='Solving PowerMockito', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='PowerMockito.when(StaticService.getMultiplicator())', name='PowerMockito', cause='UnsolvedSymbolException{context='PowerMockito', name='Solving PowerMockito', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='verify(itemRepositoryeMock, times(1)).findById(item.getId())', name='verify(itemRepositoryeMock, times(1))', cause='java.lang.RuntimeException: Error calculating the type of parameter times(1) of method call verify(itemRepositoryeMock, times(1))'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='MockitoAnnotations.initMocks(this)', name='MockitoAnnotations', cause='UnsolvedSymbolException{context='MockitoAnnotations', name='Solving MockitoAnnotations', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='when(externalSystemProxy.connectionAvailable(any(String.class))).thenThrow(new IOException())', name='when(externalSystemProxy.connectionAvailable(any(String.class)))', cause='java.lang.RuntimeException: Error calculating the type of parameter externalSystemProxy.connectionAvailable(any(String.class)) of method call when(externalSystemProxy.connectionAvailable(any(String.class)))'}
+2020-06-19 19:50:37 ERROR Execute:53 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: when(externalSystemProxy.connectionAvailable(any(String.class))), Parameter: externalSystemProxy.connectionAvailable(any(String.class))
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='MockitoAnnotations.initMocks(this)', name='MockitoAnnotations', cause='UnsolvedSymbolException{context='MockitoAnnotations', name='Solving MockitoAnnotations', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='when(itemRepository.findById("it1")).thenReturn(mockedItem)', name='when(itemRepository.findById("it1"))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='verify(itemRepository, times(1)).findById("it1")', name='verify(itemRepository, times(1))', cause='java.lang.RuntimeException: Error calculating the type of parameter times(1) of method call verify(itemRepository, times(1))'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:53 - java.util.NoSuchElementException: No value present
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='when(itemRepository.readAllItems()).thenReturn(mockedItemList)', name='when(itemRepository.readAllItems())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.mockito.PowerMockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='when(StaticService.getMultiplicator()).thenReturn(5)', name='when(StaticService.getMultiplicator())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='verify(itemRepository, times(1)).readAllItems()', name='verify(itemRepository, times(1))', cause='java.lang.RuntimeException: Error calculating the type of parameter times(1) of method call verify(itemRepository, times(1))'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.mockito.PowerMockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='when(StaticService.readFile(fileName)).thenReturn("Dummy")', name='when(StaticService.readFile(fileName))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.mockito.PowerMockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='when(StaticService.readFile(fileName)).thenThrow(IOException.class)', name='when(StaticService.readFile(fileName))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-19 19:50:37 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='MockitoAnnotations.initMocks(this)', name='MockitoAnnotations', cause='UnsolvedSymbolException{context='MockitoAnnotations', name='Solving MockitoAnnotations', cause='null'}'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='when(addressService.getPLZForCustomer(customer)).thenReturn(47891)', name='when(addressService.getPLZForCustomer(customer))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='doAnswer(new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+}).when(hostService)', name='doAnswer(new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+})', cause='java.lang.RuntimeException: Error calculating the type of parameter new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+} of method call doAnswer(new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+})'}
+2020-06-19 19:50:38 ERROR Execute:53 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: doAnswer(new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+}), Parameter: new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+}
+2020-06-19 19:50:38 ERROR Execute:53 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-19 19:50:38 ERROR Execute:53 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='when(addressService.getPLZForCustomer(customer)).thenReturn(47891)', name='when(addressService.getPLZForCustomer(customer))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='doNothing().when(addressService).updateExternalSystems(customer)', name='doNothing().when(addressService)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='doNothing().when(addressService)', name='doNothing()', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:51 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-19 19:50:38 ERROR Execute:53 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-19 19:50:38 ERROR Execute:53 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-19 19:50:38 INFO  Execute:84 - sample-junit JavaSolverStats Solved: 24 UnsolvedAssertions:7 UnsolvedWithoutJunit:63 Errors: 0

@@ -25,7 +25,6 @@ public class MethodTypeSolver {
                 addSolverSrc(f.listFiles());
             } else if (f.isDirectory() && f.getAbsolutePath().endsWith("src/test")) {
                 this.testDirsPaths.add(f.getAbsolutePath());
-                System.out.println(f.getAbsolutePath());
             }
         }
     }
