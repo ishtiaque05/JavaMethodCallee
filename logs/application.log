@@ -15066,3 +15066,1097 @@ Problem stacktrace :
 2020-06-19 22:59:12 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
 2020-06-19 22:59:12 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
 2020-06-19 22:59:12 INFO  Execute:86 - args[0] JavaSolverStats Solved: 4 UnsolvedAssertions:3 UnsolvedWithoutJunit:0 Errors: 0
+2020-06-20 15:31:17 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail()', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-20 15:31:17 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:31:17 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:31:17 INFO  Execute:85 - calculator-unit-test-example-java JavaSolverStats Solved: 4 UnsolvedAssertions:3 UnsolvedWithoutJunit:0 Errors: 0
+2020-06-20 15:32:07 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MockitoAnnotations.initMocks(this)', name='MockitoAnnotations', cause='UnsolvedSymbolException{context='MockitoAnnotations', name='Solving MockitoAnnotations', cause='null'}'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(itemRepositoryeMock.findById(item.getId())).thenReturn(item)', name='when(itemRepositoryeMock.findById(item.getId()))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.mockito.PowerMockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='PowerMockito.when(StaticService.getMultiplicator()).thenReturn(multiplicator)', name='PowerMockito.when(StaticService.getMultiplicator())', cause='UnsolvedSymbolException{context='PowerMockito', name='Solving PowerMockito', cause='null'}'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='PowerMockito.when(StaticService.getMultiplicator())', name='PowerMockito', cause='UnsolvedSymbolException{context='PowerMockito', name='Solving PowerMockito', cause='null'}'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(itemRepositoryeMock, times(1)).findById(item.getId())', name='verify(itemRepositoryeMock, times(1))', cause='java.lang.RuntimeException: Error calculating the type of parameter times(1) of method call verify(itemRepositoryeMock, times(1))'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MockitoAnnotations.initMocks(this)', name='MockitoAnnotations', cause='UnsolvedSymbolException{context='MockitoAnnotations', name='Solving MockitoAnnotations', cause='null'}'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(externalSystemProxy.connectionAvailable(any(String.class))).thenThrow(new IOException())', name='when(externalSystemProxy.connectionAvailable(any(String.class)))', cause='java.lang.RuntimeException: Error calculating the type of parameter externalSystemProxy.connectionAvailable(any(String.class)) of method call when(externalSystemProxy.connectionAvailable(any(String.class)))'}
+2020-06-20 15:32:07 ERROR Execute:55 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: when(externalSystemProxy.connectionAvailable(any(String.class))), Parameter: externalSystemProxy.connectionAvailable(any(String.class))
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MockitoAnnotations.initMocks(this)', name='MockitoAnnotations', cause='UnsolvedSymbolException{context='MockitoAnnotations', name='Solving MockitoAnnotations', cause='null'}'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(itemRepository.findById("it1")).thenReturn(mockedItem)', name='when(itemRepository.findById("it1"))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(itemRepository, times(1)).findById("it1")', name='verify(itemRepository, times(1))', cause='java.lang.RuntimeException: Error calculating the type of parameter times(1) of method call verify(itemRepository, times(1))'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(itemRepository.readAllItems()).thenReturn(mockedItemList)', name='when(itemRepository.readAllItems())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.mockito.PowerMockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(StaticService.getMultiplicator()).thenReturn(5)', name='when(StaticService.getMultiplicator())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(itemRepository, times(1)).readAllItems()', name='verify(itemRepository, times(1))', cause='java.lang.RuntimeException: Error calculating the type of parameter times(1) of method call verify(itemRepository, times(1))'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.mockito.PowerMockito', cause='null'}
+2020-06-20 15:32:07 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(StaticService.readFile(fileName)).thenReturn("Dummy")', name='when(StaticService.readFile(fileName))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.mockito.PowerMockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(StaticService.readFile(fileName)).thenThrow(IOException.class)', name='when(StaticService.readFile(fileName))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MockitoAnnotations.initMocks(this)', name='MockitoAnnotations', cause='UnsolvedSymbolException{context='MockitoAnnotations', name='Solving MockitoAnnotations', cause='null'}'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(addressService.getPLZForCustomer(customer)).thenReturn(47891)', name='when(addressService.getPLZForCustomer(customer))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='doAnswer(new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+}).when(hostService)', name='doAnswer(new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+})', cause='java.lang.RuntimeException: Error calculating the type of parameter new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+} of method call doAnswer(new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+})'}
+2020-06-20 15:32:08 ERROR Execute:55 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: doAnswer(new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+}), Parameter: new Answer<Customer>() {
+
+    @Override
+    public Customer answer(InvocationOnMock invocation) throws Throwable {
+        Object originalArgument = (invocation.getArguments())[0];
+        Customer returnedValue = (Customer) originalArgument;
+        returnedValue.setHostValue("TestHostValue");
+        return null;
+    }
+}
+2020-06-20 15:32:08 ERROR Execute:55 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-20 15:32:08 ERROR Execute:55 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(addressService.getPLZForCustomer(customer)).thenReturn(47891)', name='when(addressService.getPLZForCustomer(customer))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='doNothing().when(addressService).updateExternalSystems(customer)', name='doNothing().when(addressService)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='doNothing().when(addressService)', name='doNothing()', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Matchers', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:32:08 ERROR Execute:55 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-20 15:32:08 ERROR Execute:55 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-20 15:32:08 INFO  Execute:85 - java-junit-sample JavaSolverStats Solved: 24 UnsolvedAssertions:7 UnsolvedWithoutJunit:63 Errors: 8
+2020-06-20 15:32:18 INFO  Execute:85 - junit-examples JavaSolverStats Solved: 0 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 0
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Whitebox.invokeMethod(sut, "privateMethod", 302483L)', name='Whitebox', cause='UnsolvedSymbolException{context='Whitebox', name='Solving Whitebox', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(calendar).addEvent(expectedMeeting)', name='verify(calendar)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='ArgumentCaptor.forClass(Meeting.class)', name='ArgumentCaptor', cause='UnsolvedSymbolException{context='ArgumentCaptor', name='Solving ArgumentCaptor', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ArgumentCaptor', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='argument.capture()', name='argument', cause='UnsolvedSymbolException{context='null', name='ArgumentCaptor', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='argument.getValue()', name='argument', cause='UnsolvedSymbolException{context='null', name='ArgumentCaptor', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='RandomStringUtils.randomAlphabetic(8)', name='RandomStringUtils', cause='UnsolvedSymbolException{context='RandomStringUtils', name='Solving RandomStringUtils', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='RandomStringUtils.randomAlphabetic(12)', name='RandomStringUtils', cause='UnsolvedSymbolException{context='RandomStringUtils', name='Solving RandomStringUtils', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='RandomStringUtils', name='Solving RandomStringUtils', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='RandomStringUtils.randomAlphabetic(8)', name='RandomStringUtils', cause='UnsolvedSymbolException{context='RandomStringUtils', name='Solving RandomStringUtils', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='RandomStringUtils.randomAlphabetic(12)', name='RandomStringUtils', cause='UnsolvedSymbolException{context='RandomStringUtils', name='Solving RandomStringUtils', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='doReturn(collaborator).when(sut).createCollaborator()', name='doReturn(collaborator).when(sut)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='doReturn(collaborator).when(sut)', name='doReturn(collaborator)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(collaborator.someMethod()).thenReturn(true)', name='when(collaborator.someMethod())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='PowerMockito.whenNew(MyCollaborator.class).withNoArguments().thenReturn(collaborator)', name='PowerMockito.whenNew(MyCollaborator.class).withNoArguments()', cause='UnsolvedSymbolException{context='PowerMockito', name='Solving PowerMockito', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='PowerMockito.whenNew(MyCollaborator.class).withNoArguments()', name='PowerMockito.whenNew(MyCollaborator.class)', cause='UnsolvedSymbolException{context='PowerMockito', name='Solving PowerMockito', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='PowerMockito.whenNew(MyCollaborator.class)', name='PowerMockito', cause='UnsolvedSymbolException{context='PowerMockito', name='Solving PowerMockito', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(collaborator.someMethod()).thenReturn(true)', name='when(collaborator.someMethod())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(collaborator.someMethod()).thenReturn(true)', name='when(collaborator.someMethod())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:47 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(collaborator.doSth()).thenReturn("abc")', name='when(collaborator.doSth())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Mockito.mock(Collaborator.class)', name='Mockito', cause='UnsolvedSymbolException{context='Mockito', name='Solving Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(collaborator.doSth()).thenReturn("abc")', name='when(collaborator.doSth())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(collaborator.doSth()).thenReturn("abc")', name='when(collaborator.doSth())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='given(dao.getUser(ID_USER)).willReturn(USER)', name='given(dao.getUser(ID_USER))', cause='UnsolvedSymbolException{context='null', name='org.mockito.BDDMockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.BDDMockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withFirstname("John").withLastname("Doe")', name='new EmployeeBuilder().withFirstname("John")', cause='UnsolvedSymbolException{context='null', name='EmployeeBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withFirstname("John")', name='new EmployeeBuilder()', cause='UnsolvedSymbolException{context='null', name='EmployeeBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("123-456-789").build()', name='new PhoneBuilder().withNumber("123-456-789")', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("123-456-789")', name='new PhoneBuilder()', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("456-789-012").build()', name='new PhoneBuilder().withNumber("456-789-012")', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("456-789-012")', name='new PhoneBuilder()', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Some Street").build()', name='new AddressBuilder().withStreet("Some Street")', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Some Street")', name='new AddressBuilder()', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='anEmployee().withPosition(new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()).build()', name='anEmployee().withPosition(new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build())', cause='java.lang.RuntimeException: Error calculating the type of parameter new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build() of method call anEmployee().withPosition(new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()', name='new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3)', name='new PositionBuilder().withTitle("PM").start(2010, 1, 1)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM").start(2010, 1, 1)', name='new PositionBuilder().withTitle("PM")', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM")', name='new PositionBuilder()', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='anEmployee().withPosition(new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5).build()).build()', name='anEmployee().withPosition(new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5).build())', cause='java.lang.RuntimeException: Error calculating the type of parameter new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5).build() of method call anEmployee().withPosition(new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5).build())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5).build()', name='new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5)', name='new PositionBuilder().withTitle("CEO").start(2011, 1, 1)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO").start(2011, 1, 1)', name='new PositionBuilder().withTitle("CEO")', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO")', name='new PositionBuilder()', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withFirstname("ceoName").withLastname("ceoLastname").withPosition(new PositionBuilder().withTitle("CEO").start(startCeo).end(endCeo).build()).withAddress(new AddressBuilder().withStreet("Wall Street").build()).build()', name='new EmployeeBuilder().withFirstname("ceoName").withLastname("ceoLastname").withPosition(new PositionBuilder().withTitle("CEO").start(startCeo).end(endCeo).build()).withAddress(new AddressBuilder().withStreet("Wall Street").build())', cause='java.lang.RuntimeException: Error calculating the type of parameter new AddressBuilder().withStreet("Wall Street").build() of method call new EmployeeBuilder().withFirstname("ceoName").withLastname("ceoLastname").withPosition(new PositionBuilder().withTitle("CEO").start(startCeo).end(endCeo).build()).withAddress(new AddressBuilder().withStreet("Wall Street").build())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withFirstname("ceoName").withLastname("ceoLastname")', name='new EmployeeBuilder().withFirstname("ceoName")', cause='UnsolvedSymbolException{context='null', name='EmployeeBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withFirstname("ceoName")', name='new EmployeeBuilder()', cause='UnsolvedSymbolException{context='null', name='EmployeeBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO").start(startCeo).end(endCeo).build()', name='new PositionBuilder().withTitle("CEO").start(startCeo).end(endCeo)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO").start(startCeo).end(endCeo)', name='new PositionBuilder().withTitle("CEO").start(startCeo)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO").start(startCeo)', name='new PositionBuilder().withTitle("CEO")', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO")', name='new PositionBuilder()', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Wall Street").build()', name='new AddressBuilder().withStreet("Wall Street")', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Wall Street")', name='new AddressBuilder()', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withName("pmName", "pmLastname").withPosition(new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()).withAddress(new AddressBuilder().withStreet("Sesame Street").build()).build()', name='new EmployeeBuilder().withName("pmName", "pmLastname").withPosition(new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()).withAddress(new AddressBuilder().withStreet("Sesame Street").build())', cause='java.lang.RuntimeException: Error calculating the type of parameter new AddressBuilder().withStreet("Sesame Street").build() of method call new EmployeeBuilder().withName("pmName", "pmLastname").withPosition(new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()).withAddress(new AddressBuilder().withStreet("Sesame Street").build())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withName("pmName", "pmLastname")', name='new EmployeeBuilder()', cause='UnsolvedSymbolException{context='null', name='EmployeeBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()', name='new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3)', name='new PositionBuilder().withTitle("PM").start(2010, 1, 1)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM").start(2010, 1, 1)', name='new PositionBuilder().withTitle("PM")', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM")', name='new PositionBuilder()', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Sesame Street").build()', name='new AddressBuilder().withStreet("Sesame Street")', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Sesame Street")', name='new AddressBuilder()', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withFirstname("ceoName").withLastname("ceoLastname").withMobile(new PhoneBuilder().withNumber("123-456-789").build()).withStationary(new PhoneBuilder().withNumber("456-789-012").build()).withPosition(new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5).build()).withAddress(new AddressBuilder().withStreet("Wall Street").build()).build()', name='new EmployeeBuilder().withFirstname("ceoName").withLastname("ceoLastname").withMobile(new PhoneBuilder().withNumber("123-456-789").build()).withStationary(new PhoneBuilder().withNumber("456-789-012").build()).withPosition(new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5).build()).withAddress(new AddressBuilder().withStreet("Wall Street").build())', cause='java.lang.RuntimeException: Error calculating the type of parameter new AddressBuilder().withStreet("Wall Street").build() of method call new EmployeeBuilder().withFirstname("ceoName").withLastname("ceoLastname").withMobile(new PhoneBuilder().withNumber("123-456-789").build()).withStationary(new PhoneBuilder().withNumber("456-789-012").build()).withPosition(new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5).build()).withAddress(new AddressBuilder().withStreet("Wall Street").build())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withFirstname("ceoName").withLastname("ceoLastname")', name='new EmployeeBuilder().withFirstname("ceoName")', cause='UnsolvedSymbolException{context='null', name='EmployeeBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withFirstname("ceoName")', name='new EmployeeBuilder()', cause='UnsolvedSymbolException{context='null', name='EmployeeBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("123-456-789").build()', name='new PhoneBuilder().withNumber("123-456-789")', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("123-456-789")', name='new PhoneBuilder()', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("456-789-012").build()', name='new PhoneBuilder().withNumber("456-789-012")', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("456-789-012")', name='new PhoneBuilder()', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5).build()', name='new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO").start(2011, 1, 1).end(2011, 5, 5)', name='new PositionBuilder().withTitle("CEO").start(2011, 1, 1)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO").start(2011, 1, 1)', name='new PositionBuilder().withTitle("CEO")', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("CEO")', name='new PositionBuilder()', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Wall Street").build()', name='new AddressBuilder().withStreet("Wall Street")', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Wall Street")', name='new AddressBuilder()', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withName("pmName", "pmLastname").withMobile(new PhoneBuilder().withNumber("123-456-789").build()).withStationary(new PhoneBuilder().withNumber("456-789-012").build()).withPosition(new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()).withAddress(new AddressBuilder().withStreet("Sesame Street").build()).build()', name='new EmployeeBuilder().withName("pmName", "pmLastname").withMobile(new PhoneBuilder().withNumber("123-456-789").build()).withStationary(new PhoneBuilder().withNumber("456-789-012").build()).withPosition(new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()).withAddress(new AddressBuilder().withStreet("Sesame Street").build())', cause='java.lang.RuntimeException: Error calculating the type of parameter new AddressBuilder().withStreet("Sesame Street").build() of method call new EmployeeBuilder().withName("pmName", "pmLastname").withMobile(new PhoneBuilder().withNumber("123-456-789").build()).withStationary(new PhoneBuilder().withNumber("456-789-012").build()).withPosition(new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()).withAddress(new AddressBuilder().withStreet("Sesame Street").build())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new EmployeeBuilder().withName("pmName", "pmLastname")', name='new EmployeeBuilder()', cause='UnsolvedSymbolException{context='null', name='EmployeeBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("123-456-789").build()', name='new PhoneBuilder().withNumber("123-456-789")', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("123-456-789")', name='new PhoneBuilder()', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("456-789-012").build()', name='new PhoneBuilder().withNumber("456-789-012")', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PhoneBuilder().withNumber("456-789-012")', name='new PhoneBuilder()', cause='UnsolvedSymbolException{context='null', name='PhoneBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3).build()', name='new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM").start(2010, 1, 1).end(2011, 7, 3)', name='new PositionBuilder().withTitle("PM").start(2010, 1, 1)', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM").start(2010, 1, 1)', name='new PositionBuilder().withTitle("PM")', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new PositionBuilder().withTitle("PM")', name='new PositionBuilder()', cause='UnsolvedSymbolException{context='null', name='PositionBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Sesame Street").build()', name='new AddressBuilder().withStreet("Sesame Street")', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new AddressBuilder().withStreet("Sesame Street")', name='new AddressBuilder()', cause='UnsolvedSymbolException{context='null', name='AddressBuilder', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='ObjectMotherEmployee.ceoEmployee()', name='ObjectMotherEmployee', cause='UnsolvedSymbolException{context='ObjectMotherEmployee', name='Solving ObjectMotherEmployee', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='ObjectMotherEmployee.pmEmployee()', name='ObjectMotherEmployee', cause='UnsolvedSymbolException{context='ObjectMotherEmployee', name='Solving ObjectMotherEmployee', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-20 15:32:48 ERROR Execute:55 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-20 15:32:48 ERROR Execute:55 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-20 15:32:48 ERROR Execute:55 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail("failing: " + executionNumber)', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='DateTimeUtils.setCurrentMillisFixed(now.getTimeInMillis())', name='DateTimeUtils', cause='UnsolvedSymbolException{context='DateTimeUtils', name='Solving DateTimeUtils', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='DateTimeUtils.setCurrentMillisFixed(now.getTimeInMillis())', name='DateTimeUtils', cause='UnsolvedSymbolException{context='DateTimeUtils', name='Solving DateTimeUtils', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(timeProvider.getTime()).thenReturn(getCalendar(morningHour))', name='when(timeProvider.getTime())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='junitparams.JUnitParamsRunner', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(timeProvider.getTime()).thenReturn(getCalendar(afternoonHour))', name='when(timeProvider.getTime())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertReflectionEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertReflectionEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(setA).isNotEmpty().hasSize(2).doesNotHaveDuplicates()', name='assertThat(setA).isNotEmpty().hasSize(2)', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(setA).isNotEmpty().hasSize(2)', name='assertThat(setA).isNotEmpty()', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(setA).isNotEmpty()', name='assertThat(setA)', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(setA).containsOnly(s1, s2)', name='assertThat(setA)', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.fest.assertions.MapAssert', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.fest.assertions.MapAssert', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(map).isNotNull().isNotEmpty()', name='assertThat(map).isNotNull()', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(map).isNotNull()', name='assertThat(map)', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.fest.assertions.MapAssert', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.fest.assertions.MapAssert', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.fest.assertions.MapAssert', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(books).onProperty("title").contains("Hobbit")', name='assertThat(books).onProperty("title")', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(books).onProperty("title")', name='assertThat(books)', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(books).onProperty("author").contains("J.R.R. Tolkien")', name='assertThat(books).onProperty("author")', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(books).onProperty("author")', name='assertThat(books)', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(books).onProperty("author").contains("J.K. Rownling")', name='assertThat(books).onProperty("author")', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(books).onProperty("author")', name='assertThat(books)', cause='UnsolvedSymbolException{context='null', name='org.fest.assertions.Assertions', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.core.IsCollectionContaining', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.core.IsCollectionContaining', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.core.IsCollectionContaining', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.core.IsCollectionContaining', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.collection.IsMapContaining', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.collection.IsMapContaining', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Mockito.verifyZeroInteractions(requestProcessor)', name='Mockito', cause='UnsolvedSymbolException{context='Mockito', name='Solving Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Mockito.verifyZeroInteractions(requestProcessor)', name='Mockito', cause='UnsolvedSymbolException{context='Mockito', name='Solving Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='catchException(sut).handle(request)', name='catchException(sut)', cause='UnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Mockito.verifyZeroInteractions(requestProcessor)', name='Mockito', cause='UnsolvedSymbolException{context='Mockito', name='Solving Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='catchException(sut).methodWhichShouldThrowMyException()', name='catchException(sut)', cause='java.lang.RuntimeException: Error calculating the type of parameter sut of method call catchException(sut)'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='SUT', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='sut.methodWhichShouldThrowMyException()', name='sut', cause='UnsolvedSymbolException{context='null', name='SUT', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='catchException(phone).setNumber(null)', name='catchException(phone)', cause='UnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='caughtException().getMessage()', name='caughtException()', cause='UnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='catchException(phone).setNumber("+123")', name='catchException(phone)', cause='UnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='caughtException().getMessage()', name='caughtException()', cause='UnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.googlecode.catchexception.CatchException', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='thrown.expect(IllegalArgumentException.class)', name='thrown', cause='UnsolvedSymbolException{context='null', name='ExpectedException', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='thrown.expectMessage("number can not be null or empty")', name='thrown', cause='UnsolvedSymbolException{context='null', name='ExpectedException', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='thrown.expect(IllegalArgumentException.class)', name='thrown', cause='UnsolvedSymbolException{context='null', name='ExpectedException', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='thrown.expectMessage("plus sign prefix not allowed, number: [+123]")', name='thrown', cause='UnsolvedSymbolException{context='null', name='ExpectedException', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(taskService).handle(task)', name='verify(taskService)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(taskService).handle(task)', name='verify(taskService)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Awaitility.await().pollInterval(100, MILLISECONDS).atMost(1, SECONDS).until(new Callable<Boolean>() {
+
+    @Override
+    public Boolean call() throws Exception {
+        System.out.println("trying " + counter++);
+        return false;
+    }
+})', name='Awaitility.await().pollInterval(100, MILLISECONDS).atMost(1, SECONDS)', cause='java.lang.RuntimeException: Error calculating the type of parameter SECONDS of method call Awaitility.await().pollInterval(100, MILLISECONDS).atMost(1, SECONDS)'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='SECONDS', name='Solving SECONDS', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MILLISECONDS', name='Solving MILLISECONDS', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Awaitility.await()', name='Awaitility', cause='UnsolvedSymbolException{context='Awaitility', name='Solving Awaitility', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Awaitility.await().pollInterval(100, MILLISECONDS).atMost(1, SECONDS).until(new Callable<Boolean>() {
+
+    @Override
+    public Boolean call() throws Exception {
+        System.out.println("trying " + counter++);
+        try {
+            throw new RuntimeException();
+        } catch (Exception e) {
+            return false;
+        }
+    }
+})', name='Awaitility.await().pollInterval(100, MILLISECONDS).atMost(1, SECONDS)', cause='java.lang.RuntimeException: Error calculating the type of parameter SECONDS of method call Awaitility.await().pollInterval(100, MILLISECONDS).atMost(1, SECONDS)'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='SECONDS', name='Solving SECONDS', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MILLISECONDS', name='Solving MILLISECONDS', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Awaitility.await()', name='Awaitility', cause='UnsolvedSymbolException{context='Awaitility', name='Solving Awaitility', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Awaitility.await().pollInterval(100, MILLISECONDS).atMost(1, SECONDS).until(new Callable<Boolean>() {
+
+    @Override
+    public Boolean call() throws Exception {
+        System.out.println("trying " + counter++);
+        try {
+            verify(list).clear();
+            return true;
+        } catch (AssertionError ae) {
+            return false;
+        }
+    }
+})', name='Awaitility.await().pollInterval(100, MILLISECONDS).atMost(1, SECONDS)', cause='java.lang.RuntimeException: Error calculating the type of parameter SECONDS of method call Awaitility.await().pollInterval(100, MILLISECONDS).atMost(1, SECONDS)'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='SECONDS', name='Solving SECONDS', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MILLISECONDS', name='Solving MILLISECONDS', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Awaitility.await()', name='Awaitility', cause='UnsolvedSymbolException{context='Awaitility', name='Solving Awaitility', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(list).clear()', name='verify(list)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(list).clear()', name='verify(list)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(taskService).handle(task)', name='verify(taskService)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Awaitility.await().atMost(1, SECONDS).with().pollInterval(200, MILLISECONDS).until(new Callable<Boolean>() {
+
+    @Override
+    public Boolean call() throws Exception {
+        try {
+            verify(taskService).handle(task);
+            return true;
+        } catch (AssertionError ae) {
+            return false;
+        }
+    }
+})', name='Awaitility.await().atMost(1, SECONDS).with().pollInterval(200, MILLISECONDS)', cause='java.lang.RuntimeException: Error calculating the type of parameter MILLISECONDS of method call Awaitility.await().atMost(1, SECONDS).with().pollInterval(200, MILLISECONDS)'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MILLISECONDS', name='Solving MILLISECONDS', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Awaitility.await().atMost(1, SECONDS).with()', name='Awaitility.await().atMost(1, SECONDS)', cause='java.lang.RuntimeException: Error calculating the type of parameter SECONDS of method call Awaitility.await().atMost(1, SECONDS)'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='SECONDS', name='Solving SECONDS', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Awaitility.await()', name='Awaitility', cause='UnsolvedSymbolException{context='Awaitility', name='Solving Awaitility', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(taskService).handle(task)', name='verify(taskService)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(taskService).handle(task)', name='verify(taskService)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(userDAO.getUser(anyInt())).thenReturn(user)', name='when(userDAO.getUser(anyInt()))', cause='java.lang.RuntimeException: Error calculating the type of parameter userDAO.getUser(anyInt()) of method call when(userDAO.getUser(anyInt()))'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: when(userDAO.getUser(anyInt())), Parameter: userDAO.getUser(anyInt())
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(userDAO.getUserByProperties((Map<String, String>) argThat(hasEntry("id", "2")))).thenReturn(user)', name='when(userDAO.getUserByProperties((Map<String, String>) argThat(hasEntry("id", "2"))))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.Matchers', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.Matchers', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to isNotNull()', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='actual', name='Solving actual', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='actual.getTitle()', name='actual', cause='UnsolvedSymbolException{context='actual', name='Solving actual', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assertions.assertThat(actual.getTitle()).overridingErrorMessage(errorMessage).isEqualTo(title)', name='Assertions.assertThat(actual.getTitle()).overridingErrorMessage(errorMessage)', cause='java.lang.RuntimeException: Error calculating the type of parameter actual.getTitle() of method call Assertions.assertThat(actual.getTitle())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assertions.assertThat(actual.getTitle()).overridingErrorMessage(errorMessage)', name='Assertions.assertThat(actual.getTitle())', cause='java.lang.RuntimeException: Error calculating the type of parameter actual.getTitle() of method call Assertions.assertThat(actual.getTitle())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='actual.getTitle()', name='actual', cause='UnsolvedSymbolException{context='actual', name='Solving actual', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to isNotNull()', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='actual', name='Solving actual', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='actual.getLanguage()', name='actual', cause='UnsolvedSymbolException{context='actual', name='Solving actual', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assertions.assertThat(actual.getLanguage()).overridingErrorMessage(errorMessage).isEqualTo(language)', name='Assertions.assertThat(actual.getLanguage()).overridingErrorMessage(errorMessage)', cause='java.lang.RuntimeException: Error calculating the type of parameter actual.getLanguage() of method call Assertions.assertThat(actual.getLanguage())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assertions.assertThat(actual.getLanguage()).overridingErrorMessage(errorMessage)', name='Assertions.assertThat(actual.getLanguage())', cause='java.lang.RuntimeException: Error calculating the type of parameter actual.getLanguage() of method call Assertions.assertThat(actual.getLanguage())'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='actual.getLanguage()', name='actual', cause='UnsolvedSymbolException{context='actual', name='Solving actual', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.Matchers', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.Matchers', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.Matchers', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.Matchers', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.Matchers', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(book.getTitle()).isNotNull()', name='assertThat(book.getTitle())', cause='UnsolvedSymbolException{context='null', name='com.practicalunittesting.chp06.matchers.BookAssert', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(book.getTitle()).isNotEmpty()', name='assertThat(book.getTitle())', cause='UnsolvedSymbolException{context='null', name='com.practicalunittesting.chp06.matchers.BookAssert', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(book.getTitle()).isEqualTo(TITLE)', name='assertThat(book.getTitle())', cause='UnsolvedSymbolException{context='null', name='com.practicalunittesting.chp06.matchers.BookAssert', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(book).hasTitle(TITLE)', name='assertThat(book)', cause='UnsolvedSymbolException{context='null', name='com.practicalunittesting.chp06.matchers.BookAssert', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(book).hasTitle(TITLE).isNotIn(scienceFictionBooks).isWrittenIn(ENGLISH)', name='assertThat(book).hasTitle(TITLE).isNotIn(scienceFictionBooks)', cause='UnsolvedSymbolException{context='null', name='com.practicalunittesting.chp06.matchers.BookAssert', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(book).hasTitle(TITLE).isNotIn(scienceFictionBooks)', name='assertThat(book).hasTitle(TITLE)', cause='UnsolvedSymbolException{context='null', name='com.practicalunittesting.chp06.matchers.BookAssert', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(book).hasTitle(TITLE)', name='assertThat(book)', cause='UnsolvedSymbolException{context='null', name='com.practicalunittesting.chp06.matchers.BookAssert', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(book).isEqualTo(otherBook)', name='assertThat(book)', cause='UnsolvedSymbolException{context='null', name='com.practicalunittesting.chp06.matchers.BookAssert', cause='null'}'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assume', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assume', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(client.getEmail()).thenReturn(CLIENT_EMAIL)', name='when(client.getEmail())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(templateEngine.prepareMessage(template, client)).thenReturn(MSG_CONTENT)', name='when(templateEngine.prepareMessage(template, client))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(mailServer).send(CLIENT_EMAIL, MSG_CONTENT)', name='verify(mailServer)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(myFerrari.needsFuel()).thenReturn(true)', name='when(myFerrari.needsFuel())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(myFerrari).driveTo("Sweet home Honolulu")', name='verify(myFerrari)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(myFerrari.needsFuel()).thenThrow(new RuntimeException())', name='when(myFerrari.needsFuel())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(myFerrari).driveTo("Sweet home Alabama")', name='verify(myFerrari)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(myFerrari).needsFuel()', name='verify(myFerrari)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(myFerrari).getEngineTemperature()', name='verify(myFerrari)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(client).receive(message)', name='verify(client)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientA).receive(message)', name='verify(clientA)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientB).receive(message)', name='verify(clientB)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientA).receive(message)', name='verify(clientA)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientA).receive(message)', name='verify(clientA)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientB).receive(message)', name='verify(clientB)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientA, never()).receive(message)', name='verify(clientA, never())', cause='java.lang.RuntimeException: Error calculating the type of parameter never() of method call verify(clientA, never())'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientB, never()).receive(message)', name='verify(clientB, never())', cause='java.lang.RuntimeException: Error calculating the type of parameter never() of method call verify(clientB, never())'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientA).receive(message)', name='verify(clientA)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientA).receive(message)', name='verify(clientA)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientB).receive(message)', name='verify(clientB)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientA).receive(message)', name='verify(clientA)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientB, never()).receive(message)', name='verify(clientB, never())', cause='java.lang.RuntimeException: Error calculating the type of parameter never() of method call verify(clientB, never())'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientA).receive(message)', name='verify(clientA)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(clientA, never()).receive(message)', name='verify(clientA, never())', cause='java.lang.RuntimeException: Error calculating the type of parameter never() of method call verify(clientA, never())'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(client).receive(message)', name='verify(client)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(client).receive(message)', name='verify(client)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(MOBILE_PHONE.isMobile()).thenReturn(true)', name='when(MOBILE_PHONE.isMobile())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(MOBILE_PHONE.isMobile()).thenReturn(true)', name='when(MOBILE_PHONE.isMobile())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(MOBILE_PHONE.isMobile()).andStubReturn(true)', name='expect(MOBILE_PHONE.isMobile())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(fundA.getValue()).andStubReturn(VALUE_A)', name='expect(fundA.getValue())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(fundB.getValue()).andStubReturn(VALUE_B)', name='expect(fundB.getValue())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(fundA.getValue()).thenReturn(VALUE_A)', name='when(fundA.getValue())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(fundB.getValue()).thenReturn(VALUE_B)', name='when(fundB.getValue())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(fundA.getRegisterX()).andStubReturn(regAX)', name='expect(fundA.getRegisterX())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(fundA.getRegisterY()).andStubReturn(regAY)', name='expect(fundA.getRegisterY())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(fundB.getRegisterX()).andStubReturn(regBX)', name='expect(fundB.getRegisterX())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(fundB.getRegisterY()).andStubReturn(regBY)', name='expect(fundB.getRegisterY())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(regAX.getNbOfUnits()).andStubReturn(NB_OF_UNITS_AX)', name='expect(regAX.getNbOfUnits())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(regAY.getNbOfUnits()).andStubReturn(NB_OF_UNITS_AY)', name='expect(regAY.getNbOfUnits())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(regBX.getNbOfUnits()).andStubReturn(NB_OF_UNITS_BX)', name='expect(regBX.getNbOfUnits())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(regBY.getNbOfUnits()).andStubReturn(NB_OF_UNITS_BY)', name='expect(regBY.getNbOfUnits())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(fundA.getCurrentValue()).andStubReturn(currentValueA)', name='expect(fundA.getCurrentValue())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(fundB.getCurrentValue()).andStubReturn(currentValueB)', name='expect(fundB.getCurrentValue())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(currentValueA.getValue()).andStubReturn(FUND_A_VALUE)', name='expect(currentValueA.getValue())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='expect(currentValueB.getValue()).andStubReturn(FUND_B_VALUE)', name='expect(currentValueB.getValue())', cause='UnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.easymock.EasyMock', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(fundA.getRegisterX()).thenReturn(regAX)', name='when(fundA.getRegisterX())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(fundA.getRegisterY()).thenReturn(regAY)', name='when(fundA.getRegisterY())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(fundB.getRegisterX()).thenReturn(regBX)', name='when(fundB.getRegisterX())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(fundB.getRegisterY()).thenReturn(regBY)', name='when(fundB.getRegisterY())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(regAX.getNbOfUnits()).thenReturn(NB_OF_UNITS_AX)', name='when(regAX.getNbOfUnits())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(regAY.getNbOfUnits()).thenReturn(NB_OF_UNITS_AY)', name='when(regAY.getNbOfUnits())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(regBX.getNbOfUnits()).thenReturn(NB_OF_UNITS_BX)', name='when(regBX.getNbOfUnits())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(regBY.getNbOfUnits()).thenReturn(NB_OF_UNITS_BY)', name='when(regBY.getNbOfUnits())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(fundA.getCurrentValue()).thenReturn(currentValueA)', name='when(fundA.getCurrentValue())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(fundB.getCurrentValue()).thenReturn(currentValueB)', name='when(fundB.getCurrentValue())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(currentValueA.getValue()).thenReturn(FUND_A_VALUE)', name='when(currentValueA.getValue())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(currentValueB.getValue()).thenReturn(FUND_B_VALUE)', name='when(currentValueB.getValue())', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(dao).load()', name='verify(dao)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(dao).load()', name='verify(dao)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(store.itemsLeft(ITEM_NAME)).thenReturn(2)', name='when(store.itemsLeft(ITEM_NAME))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(store).itemsLeft(ITEM_NAME)', name='verify(store)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(store.itemsLeft(ITEM_NAME)).thenReturn(2)', name='when(store.itemsLeft(ITEM_NAME))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(store).itemsLeft(ITEM_NAME)', name='verify(store)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.Matchers', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Description', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='description.getMethodName()', name='description', cause='UnsolvedSymbolException{context='null', name='Description', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Description', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='description.getMethodName()', name='description', cause='UnsolvedSymbolException{context='null', name='Description', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Description', cause='null'}
+2020-06-20 15:32:49 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='description.getMethodName()', name='description', cause='UnsolvedSymbolException{context='null', name='Description', cause='null'}'}
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:32:49 INFO  Execute:85 - junit-put-examples JavaSolverStats Solved: 328 UnsolvedAssertions:199 UnsolvedWithoutJunit:468 Errors: 154
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(contact.getFullName()).isEqualTo("Smith")', name='assertThat(contact.getFullName())', cause='UnsolvedSymbolException{context='null', name='org.assertj.core.api.Assertions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='webAppContextSetup(wac).build()', name='webAppContextSetup(wac)', cause='java.lang.RuntimeException: Error calculating the type of parameter wac of method call webAppContextSetup(wac)'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='WebApplicationContext', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to contactRepository.deleteAll()', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to contactRepository.save(contact)', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.result.MockMvcResultMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='status().is(code)', name='status()', cause='UnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.result.MockMvcResultMatchers', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.result.MockMvcResultMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:55 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: mvcResult.andExpect(jsonPath("$." + field, is(value))), Parameter: jsonPath("$." + field, is(value))
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:55 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: mvcResult.andExpect(jsonPath("$." + field, is(value))), Parameter: jsonPath("$." + field, is(value))
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.result.MockMvcResultMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='jsonPath("$." + field).exists()', name='jsonPath("$." + field)', cause='UnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.result.MockMvcResultMatchers', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.result.MockMvcResultMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.request.MockMvcRequestBuilders', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.request.MockMvcRequestBuilders', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='mvcResult.andReturn().getResponse().getContentAsString()', name='mvcResult.andReturn().getResponse()', cause='UnsolvedSymbolException{context='null', name='ResultActions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='mvcResult.andReturn().getResponse()', name='mvcResult.andReturn()', cause='UnsolvedSymbolException{context='null', name='ResultActions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='mvcResult.andReturn()', name='mvcResult', cause='UnsolvedSymbolException{context='null', name='ResultActions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assertions.assertThat(response).contains(responseJson.replaceAll("\\s", "").replace("\n", "").replace("\t", ""))', name='Assertions.assertThat(response)', cause='UnsolvedSymbolException{context='Assertions', name='Solving Assertions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:33:51 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:33:51 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to contactRepository.save(contact)', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='verify(contactRepository).save(contact)', name='verify(contactRepository)', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='when(contactRepository.searchContacts("jo")).thenReturn(asList(contact))', name='when(contactRepository.searchContacts("jo"))', cause='UnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(contacts).contains(contact)', name='assertThat(contacts)', cause='UnsolvedSymbolException{context='null', name='org.assertj.core.api.Assertions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='ArgumentCaptor.forClass(Contact.class)', name='ArgumentCaptor', cause='UnsolvedSymbolException{context='ArgumentCaptor', name='Solving ArgumentCaptor', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ArgumentCaptor', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='argument.capture()', name='argument', cause='UnsolvedSymbolException{context='null', name='ArgumentCaptor', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(argument.getValue().getId()).isNotNull()', name='assertThat(argument.getValue().getId())', cause='java.lang.RuntimeException: Error calculating the type of parameter argument.getValue().getId() of method call assertThat(argument.getValue().getId())'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='argument.getValue().getId()', name='argument.getValue()', cause='UnsolvedSymbolException{context='null', name='ArgumentCaptor', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='argument.getValue()', name='argument', cause='UnsolvedSymbolException{context='null', name='ArgumentCaptor', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(contactService.load(savedContact.getId())).isEqualTo(contact)', name='assertThat(contactService.load(savedContact.getId()))', cause='UnsolvedSymbolException{context='null', name='org.assertj.core.api.Assertions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(contacts).containsOnly(contact1, contact2)', name='assertThat(contacts)', cause='UnsolvedSymbolException{context='null', name='org.assertj.core.api.Assertions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.pik.contact.gui.selenium.setup.SeleniumDriver', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.pik.contact.gui.selenium.setup.SeleniumDriver', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='getDriver().get(getBaseUrl() + getPageUrl())', name='getDriver()', cause='UnsolvedSymbolException{context='null', name='com.pik.contact.gui.selenium.setup.SeleniumDriver', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.pik.contact.gui.selenium.setup.SeleniumDriver', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ExpectedCondition', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new FluentWait(getDriver()).withTimeout(LOAD_TIMEOUT, TimeUnit.SECONDS).pollingEvery(REFRESH_RATE, TimeUnit.SECONDS)', name='new FluentWait(getDriver()).withTimeout(LOAD_TIMEOUT, TimeUnit.SECONDS)', cause='UnsolvedSymbolException{context='null', name='FluentWait', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new FluentWait(getDriver()).withTimeout(LOAD_TIMEOUT, TimeUnit.SECONDS)', name='new FluentWait(getDriver())', cause='UnsolvedSymbolException{context='null', name='FluentWait', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.pik.contact.gui.selenium.setup.SeleniumDriver', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ExpectedCondition', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='ExpectedConditions.titleContains("Contact")', name='ExpectedConditions', cause='UnsolvedSymbolException{context='ExpectedConditions', name='Solving ExpectedConditions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to openPage()', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='filter.sendKeys(query)', name='filter', cause='UnsolvedSymbolException{context='null', name='WebElement', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:55 - java.util.NoSuchElementException: No value present
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='firstContactTitle.getAttribute("value")', name='firstContactTitle', cause='UnsolvedSymbolException{context='null', name='WebElement', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='getDriver().close()', name='getDriver()', cause='UnsolvedSymbolException{context='null', name='com.pik.contact.gui.selenium.setup.SeleniumDriver', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='com.pik.contact.gui.selenium.setup.SeleniumDriver', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='new ContactsPage(port).open()', name='new ContactsPage(port)', cause='UnsolvedSymbolException{context='null', name='ContactsPage', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='contactsPage.find("John")', name='contactsPage', cause='UnsolvedSymbolException{context='null', name='ContactsPage', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(contactsPage.firstContactTitle()).isEqualTo("John")', name='assertThat(contactsPage.firstContactTitle())', cause='java.lang.RuntimeException: Error calculating the type of parameter contactsPage.firstContactTitle() of method call assertThat(contactsPage.firstContactTitle())'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='contactsPage.firstContactTitle()', name='contactsPage', cause='UnsolvedSymbolException{context='null', name='ContactsPage', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS)', name='driver.manage().timeouts()', cause='UnsolvedSymbolException{context='null', name='WebDriver', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='driver.manage().timeouts()', name='driver.manage()', cause='UnsolvedSymbolException{context='null', name='WebDriver', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='driver.manage()', name='driver', cause='UnsolvedSymbolException{context='null', name='WebDriver', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to repository.deleteAll()', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MockMvcBuilders.standaloneSetup(controllers).build()', name='MockMvcBuilders.standaloneSetup(controllers)', cause='UnsolvedSymbolException{context='MockMvcBuilders', name='Solving MockMvcBuilders', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='MockMvcBuilders.standaloneSetup(controllers)', name='MockMvcBuilders', cause='UnsolvedSymbolException{context='MockMvcBuilders', name='Solving MockMvcBuilders', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='mockMvc.perform(post("/rest/contacts").contentType(APPLICATION_JSON).content("{\"name\":\"John\",\"fullName\":\"Doe\"}")).andExpect(status().isCreated()).andReturn()', name='mockMvc.perform(post("/rest/contacts").contentType(APPLICATION_JSON).content("{\"name\":\"John\",\"fullName\":\"Doe\"}")).andExpect(status().isCreated())', cause='java.lang.RuntimeException: Error calculating the type of parameter status().isCreated() of method call mockMvc.perform(post("/rest/contacts").contentType(APPLICATION_JSON).content("{\"name\":\"John\",\"fullName\":\"Doe\"}")).andExpect(status().isCreated())'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.result.MockMvcResultMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:55 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: mockMvc.perform(post("/rest/contacts").contentType(APPLICATION_JSON).content("{\"name\":\"John\",\"fullName\":\"Doe\"}")), Parameter: post("/rest/contacts").contentType(APPLICATION_JSON).content("{\"name\":\"John\",\"fullName\":\"Doe\"}")
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='post("/rest/contacts").contentType(APPLICATION_JSON).content("{\"name\":\"John\",\"fullName\":\"Doe\"}")', name='post("/rest/contacts").contentType(APPLICATION_JSON)', cause='java.lang.RuntimeException: Error calculating the type of parameter APPLICATION_JSON of method call post("/rest/contacts").contentType(APPLICATION_JSON)'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.http.MediaType', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.request.MockMvcRequestBuilders', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='status().isCreated()', name='status()', cause='UnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.result.MockMvcResultMatchers', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.springframework.test.web.servlet.result.MockMvcResultMatchers', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='repository.findById(result.getResponse().getContentAsString()).orElse(null)', name='repository.findById(result.getResponse().getContentAsString())', cause='java.lang.RuntimeException: Error calculating the type of parameter result.getResponse().getContentAsString() of method call repository.findById(result.getResponse().getContentAsString())'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='MvcResult', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='result.getResponse().getContentAsString()', name='result.getResponse()', cause='UnsolvedSymbolException{context='null', name='MvcResult', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='result.getResponse()', name='result', cause='UnsolvedSymbolException{context='null', name='MvcResult', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(contact.getName()).isEqualTo("John")', name='assertThat(contact.getName())', cause='UnsolvedSymbolException{context='null', name='org.assertj.core.api.Assertions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='assertThat(contact.getFullName()).isEqualTo("Doe")', name='assertThat(contact.getFullName())', cause='UnsolvedSymbolException{context='null', name='org.assertj.core.api.Assertions', cause='null'}'}
+2020-06-20 15:33:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertThat cannot resolve', cause='null'}
+2020-06-20 15:33:51 INFO  Execute:85 - testing-examples JavaSolverStats Solved: 25 UnsolvedAssertions:10 UnsolvedWithoutJunit:73 Errors: 9
