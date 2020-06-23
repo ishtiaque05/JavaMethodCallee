@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Execute {
-    public static int errors = 0, unsolved = 0, solved = 0, assertionUnsolved = 0 ;
+    public static int errors = 0, unsolved = 0, solved = 0, assertionUnsolved = 0, StackOverFlowCount =0;
     public static int testMethodsCount = 0, calledMethodsCount = 0;
     public static List<String> errsMsg = new ArrayList<String>();;
     public static List<TestMethodInfo> tmethods = new ArrayList<TestMethodInfo>();
@@ -50,7 +50,11 @@ public class Execute {
                                     Execute.unsolved++;
                                 }
                                 logger.error("Unsolved Exception" + usym);
-                            } catch (Exception e) {
+                            } catch(StackOverflowError e){
+                                Execute.StackOverFlowCount++;
+                                System.out.println("Caught stackoverflow error!");
+                            }
+                            catch (Exception e) {
                                 Execute.errors++;
                                 logger.error(e);
                             }
@@ -78,11 +82,20 @@ public class Execute {
         // Configure the JavaParser to use the solver for parsing
         JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
         StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
+
         Execute.startProcessing(mts);
+
+//        Problematic file /home/siahmad/projects/def-rtholmes-ab/siahmad/repos/pmd/pmd-cs/src/test/java/net/sourceforge/pmd/cpd/CsTokenizerTest.java
+//        Uncomment below line to have stackoverflow error
+//        Execute.listMethodCalls(new File(Settings.REPOS_PATH+"/pmd/pmd-cs/src/test/java/net/sourceforge/pmd/cpd/"));
 
         JsonWriter.writeToJSON(Settings.OUTPATH+repoName+".json", tmethods);
 
-        logger.info(repoName+ " JavaSolverStats Solved: "+Execute.solved+ " UnsolvedAssertions:"+ Execute.assertionUnsolved + " UnsolvedWithoutJunit:" +Execute.unsolved + " Errors: "+ Execute.errors);
+        logger.info(repoName+ ": JavaSolverStats Solved: "
+                +Execute.solved+ " UnsolvedAssertions:"+
+                Execute.assertionUnsolved +
+                " UnsolvedWithoutJunit:" +Execute.unsolved +
+                " Errors: "+ Execute.errors + " StackOverFlowError: " + Execute.StackOverFlowCount);
     }
 
     public static void startProcessing(MethodTypeSolver mts) {

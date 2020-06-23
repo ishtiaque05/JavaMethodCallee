@@ -20,11 +20,14 @@ public class MethodTypeSolver {
     // recursively add all the src dirs path to the solver src path
     public void addSolverSrc(File[] files) {
         for(File f: files) {
-            if(f.isDirectory() && !f.isFile() && !f.getAbsolutePath().contains("src/test")) {
+            if(f.isDirectory() && !f.isFile()) {
                 this.cbSolver.add(new JavaParserTypeSolver(new File(f.getAbsolutePath())));
                 addSolverSrc(f.listFiles());
-            } else if (f.isDirectory() && f.getAbsolutePath().endsWith("src/test")) {
-                this.testDirsPaths.add(f.getAbsolutePath());
+            }
+            if (f.isDirectory() && f.getAbsolutePath().endsWith("src/test")) {
+                if(!this.testDirsPaths.contains(f.getAbsolutePath())) {
+                    this.testDirsPaths.add(f.getAbsolutePath());
+                }
             }
         }
     }
