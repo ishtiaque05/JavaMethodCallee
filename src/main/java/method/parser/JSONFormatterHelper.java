@@ -7,7 +7,7 @@ import com.github.javaparser.resolution.declarations.ResolvedMethodDeclaration;
 public class JSONFormatterHelper {
     public static TestMethodInfo getInfoModel(MethodDeclaration aMethod) {
         TestMethodInfo tmethod = new TestMethodInfo();
-        tmethod.methodName = aMethod.getNameAsString();
+        tmethod.name = aMethod.getNameAsString();
         tmethod.methodSignature = aMethod.getSignature().asString();
         tmethod.startline = aMethod.getName().getBegin().get().line;
         tmethod.endline = aMethod.getEnd().get().line;
