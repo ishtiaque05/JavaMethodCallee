@@ -49,7 +49,7 @@ public class JavaJunitSampleTest {
     public void readItemDescriptionWithIOExceptionTotalCalleeWithDuplicatesTest() {
         String methodPathToTest = "src/test/java/com/codecentric/sample/store/service/ItemServiceTest.java";
         for(TestMethodInfo tmethod : tmethods) {
-            if(tmethod.path.endsWith(methodPathToTest) && tmethod.methodName.equals("readItemDescriptionWithIOException")){
+            if(tmethod.path.endsWith(methodPathToTest) && tmethod.name.equals("readItemDescriptionWithIOException")){
                 // Total called methods
                 Assert.assertEquals(3, tmethod.calledMethods.toArray().length);
                 break;
@@ -65,7 +65,7 @@ public class JavaJunitSampleTest {
         CalledMethodInfo duplicateMethodInfo = null;
         int duplicateCount = 0;
         for(TestMethodInfo tmethod : tmethods) {
-            if(tmethod.path.endsWith(methodPathToTest) && tmethod.methodName.equals("readItemDescriptionWithIOException")){
+            if(tmethod.path.endsWith(methodPathToTest) && tmethod.name.equals("readItemDescriptionWithIOException")){
                 for(CalledMethodInfo c : tmethod.calledMethods) {
                     if(c.fullQualifiedSignature.equals(duplicateMethodSignature) && c.startline == 12 ) {
                         duplicateMethodInfo = c;
