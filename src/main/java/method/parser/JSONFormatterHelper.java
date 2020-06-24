@@ -9,7 +9,9 @@ public class JSONFormatterHelper {
         TestMethodInfo tmethod = new TestMethodInfo();
         tmethod.methodName = aMethod.getNameAsString();
         tmethod.methodSignature = aMethod.getSignature().asString();
-        tmethod.path = aMethod.getParentNode().get().findCompilationUnit().get().getStorage().get().getPath().toString();
+        tmethod.startline = aMethod.getName().getBegin().get().line;
+        tmethod.endline = aMethod.getEnd().get().line;
+        tmethod.path = aMethod.findCompilationUnit().get().getStorage().get().getPath().toString();
         return tmethod;
     }
 
@@ -20,8 +22,9 @@ public class JSONFormatterHelper {
         cMethod.fullQualifiedSignature = resolvedMethod.getQualifiedSignature();
         cMethod.packageName = resolvedMethod.getPackageName();
         cMethod.signature = resolvedMethod.getSignature();
-        cMethod.startline = resolvedMethod.toAst().get().getRange().get().begin.line;
-        cMethod.path = resolvedMethod.toAst().get().getParentNode().get().findCompilationUnit().get().getStorage().get().getPath().toString();
+        cMethod.startline = resolvedMethod.toAst().get().getName().getBegin().get().line;
+        cMethod.endline = resolvedMethod.toAst().get().getName().getEnd().get().line;
+        cMethod.path = resolvedMethod.toAst().get().findCompilationUnit().get().getStorage().get().getPath().toString();
         return cMethod;
     }
 }

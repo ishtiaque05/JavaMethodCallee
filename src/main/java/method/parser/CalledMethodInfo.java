@@ -8,5 +8,6 @@ public class CalledMethodInfo {
     String signature;
     String path;
     int startline;
+    int endline;
 }
 

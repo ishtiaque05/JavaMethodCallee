@@ -24978,3 +24978,369 @@ Problem stacktrace :
 2020-06-22 18:10:17 ERROR Execute:59 - java.util.NoSuchElementException: No value present
 2020-06-22 18:10:17 ERROR Execute:59 - java.util.NoSuchElementException: No value present
 2020-06-22 18:10:17 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:27:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail()', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-23 21:27:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:27:48 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:27:48 INFO  Execute:95 - args[0]: JavaSolverStats Solved: 4 UnsolvedAssertions:3 UnsolvedWithoutJunit:0 Errors: 0 StackOverFlowError: 0
+2020-06-23 21:49:28 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail()', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-23 21:49:28 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:49:29 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:49:34 INFO  Execute:95 - args[0]: JavaSolverStats Solved: 4 UnsolvedAssertions:3 UnsolvedWithoutJunit:0 Errors: 0 StackOverFlowError: 0
+2020-06-23 21:51:15 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail()', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-23 21:51:15 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:51:29 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail()', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-23 21:51:29 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:51:29 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:51:29 INFO  Execute:95 - args[0]: JavaSolverStats Solved: 4 UnsolvedAssertions:3 UnsolvedWithoutJunit:0 Errors: 0 StackOverFlowError: 0
+2020-06-23 21:53:43 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='IOUtils.toString(SwiftTokenizer.class.getResourceAsStream(FILENAME), StandardCharsets.UTF_8)', name='IOUtils', cause='UnsolvedSymbolException{context='IOUtils', name='Solving IOUtils', cause='null'}'}
+2020-06-23 21:53:43 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:50 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:50 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-23 21:53:50 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:50 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='zip.getEntries()', name='zip', cause='UnsolvedSymbolException{context='null', name='ZipFile', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='entries.hasMoreElements()', name='entries', cause='UnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='entries.nextElement()', name='entries', cause='UnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='tempDir.resolve(entry.getName()).toFile()', name='tempDir.resolve(entry.getName())', cause='java.lang.RuntimeException: Error calculating the type of parameter entry.getName() of method call tempDir.resolve(entry.getName())'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='entry.getName()', name='entry', cause='UnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='entry.isDirectory()', name='entry', cause='UnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='IOUtils.copy(data, fileOut)', name='IOUtils', cause='UnsolvedSymbolException{context='IOUtils', name='Solving IOUtils', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='entry.getUnixMode()', name='entry', cause='UnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='zip.close()', name='zip', cause='UnsolvedSymbolException{context='null', name='ZipFile', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='zip.getEntries()', name='zip', cause='UnsolvedSymbolException{context='null', name='ZipFile', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='entries.hasMoreElements()', name='entries', cause='UnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='entries.nextElement()', name='entries', cause='UnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='entry.getName()', name='entry', cause='UnsolvedSymbolException{context='null', name='ZipArchiveEntry', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='zip.close()', name='zip', cause='UnsolvedSymbolException{context='null', name='ZipFile', cause='null'}'}
+2020-06-23 21:53:51 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:51 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertDefaultExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertExecutionResult cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNoError cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNoError cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNoError cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNoError cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNoErrorInReport cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNoErrorInReport cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNoError cannot resolve', cause='null'}
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:52 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='IOUtils.toString(process.getInputStream(), StandardCharsets.UTF_8)', name='IOUtils', cause='UnsolvedSymbolException{context='IOUtils', name='Solving IOUtils', cause='null'}'}
+2020-06-23 21:53:52 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='IOUtils.toString(process.getErrorStream(), StandardCharsets.UTF_8)', name='IOUtils', cause='UnsolvedSymbolException{context='IOUtils', name='Solving IOUtils', cause='null'}'}
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='IOUtils.toString(reportFile.toUri(), StandardCharsets.UTF_8)', name='IOUtils', cause='UnsolvedSymbolException{context='IOUtils', name='Solving IOUtils', cause='null'}'}
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='IOUtils.toString(process.getInputStream(), StandardCharsets.UTF_8)', name='IOUtils', cause='UnsolvedSymbolException{context='IOUtils', name='Solving IOUtils', cause='null'}'}
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='IOUtils.toString(process.getErrorStream(), StandardCharsets.UTF_8)', name='IOUtils', cause='UnsolvedSymbolException{context='IOUtils', name='Solving IOUtils', cause='null'}'}
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='FileUtils.forceDelete(tempDir.toFile())', name='FileUtils', cause='UnsolvedSymbolException{context='FileUtils', name='Solving FileUtils', cause='null'}'}
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='IOUtils.toString(process.getInputStream(), StandardCharsets.UTF_8)', name='IOUtils', cause='UnsolvedSymbolException{context='IOUtils', name='Solving IOUtils', cause='null'}'}
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='IOUtils.toString(process.getInputStream(), StandardCharsets.UTF_8)', name='IOUtils', cause='UnsolvedSymbolException{context='IOUtils', name='Solving IOUtils', cause='null'}'}
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:53 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:54 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:54 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:54 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.parse("<span escape='false' attrib=\"{!call}\">${!'yes'}</span>")', cause='null'}
+2020-06-23 21:53:54 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.parse("<span escape='false' attrib=\"{!call}\">${!method}</span>")', cause='null'}
+2020-06-23 21:53:54 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.parse("<span escape='false' attrib=\"{!call}\">${\"yes\"}</span>")', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:55 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:56 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTElExpression.class, VF_EL_EXPRESSION)', cause='null'}
+2020-06-23 21:53:56 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:56 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:56 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:56 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:56 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:56 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:56 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTElExpression.class, VF_EL_EXPRESSION_IN_ATTRIBUTE)', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTElement.class, TEST_SIMPLEST_HTML)', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.parse(TEST_ELEMENT_AND_NAMESPACE)', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTAttribute.class, TEST_ATTRIBUTE_VALUE_CONTAINING_HASH)', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:57 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTCData.class, TEST_CDATA)', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.parse(TEST_DOCTYPE)', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTHtmlScript.class, TEST_HTML_SCRIPT)', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:58 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTElement.class, TEST_EL_IN_TAG_ATTRIBUTE)', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTElement.class, TEST_EL_IN_TAG_ATTRIBUTE_WITH_COMMENT)', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTElement.class, TEST_EL_IN_TAG_ATTRIBUTE_WITH_COMMENT_SQ)', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTHtmlScript.class, TEST_EL_IN_HTML_SCRIPT)', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTHtmlScript.class, TEST_EL_IN_HTML_SCRIPT_WITH_COMMENT)', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTHtmlScript.class, TEST_QUOTED_EL_IN_HTML_SCRIPT)', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTHtmlScript.class, TEST_IMPORT_JAVASCRIPT)', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:53:59 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTHtmlScript.class, TEST_HTML_SCRIPT_WITH_ATTRIBUTE)', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTHtmlScript.class, TEST_COMPLEX_SCRIPT)', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTElement.class, TEST_INLINE_STYLE)', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTText.class, TEST_TEXT_IN_TAG)', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to vf.getNodes(ASTElement.class, TEST_TAGS_NO_SPACE)', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:52 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
+2020-06-23 21:54:00 ERROR Execute:59 - java.util.NoSuchElementException: No value present
