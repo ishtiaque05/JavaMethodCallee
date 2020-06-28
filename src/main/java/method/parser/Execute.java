@@ -8,9 +8,11 @@ import com.github.javaparser.resolution.UnsolvedSymbolException;
 import com.github.javaparser.resolution.declarations.ResolvedMethodDeclaration;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.model.resolution.TypeSolver;
+import com.github.javaparser.utils.ParserCollectionStrategy;
+import com.github.javaparser.utils.ProjectRoot;
 import org.apache.log4j.Logger;
+
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -74,9 +76,12 @@ public class Execute {
         File srcDir = new File(Settings.REPOS_PATH+args[0]);
         String repoName = args[0];
 
+        // Get all project root
+        ProjectRoot p = new ParserCollectionStrategy().collect(srcDir.toPath());
+
         // Intialize the solver by adding all the source path
         MethodTypeSolver mts = new MethodTypeSolver(srcDir);
-        mts.addSolverSrc(srcDir.listFiles());
+        mts.addSolverSrc(p);
         TypeSolver myTypeSolver = mts.getSolver();
 
         // Configure the JavaParser to use the solver for parsing

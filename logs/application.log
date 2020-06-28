@@ -1,0 +1,358 @@
+2020-06-28 14:51:30 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='FunctionNode', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='FunctionNode', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertOutputContaining cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertOutputContaining cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertOutputContaining cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function foo() { var a = 'a'; }")', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js18.parse("(function(x) x*x)")', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse(SOURCE_CODE)', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getBeginLine()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getBeginColumn()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getEndLine()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getEndColumn()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getFirstChildOfType(ASTFunctionNode.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getFirstDescendantOfType(ASTFunctionCall.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Scope', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: rule.apply(Arrays.asList(js.parse(source)), ctx), Parameter: Arrays.asList(js.parse(source))
+2020-06-28 14:51:31 ERROR Execute:61 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: Arrays.asList(js.parse(source)), Parameter: js.parse(source)
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse(source)', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Scope', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function a() { b['a'] = 1; c[1] = 2; }")', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.findDescendantsOfType(ASTElementGet.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function test(){\n" + "  a();      // OK\n" + "  b.c();    // OK\n" + "  d[0]();   // OK\n" + "  e[0].f(); // OK\n" + "  y.z[0](); // FAIL ==> java.lang.NullPointerException\n" + "}")', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='rootNode.findDescendantsOfType(ASTFunctionCall.class)', name='rootNode', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:31 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:31 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function f(a){\n" + "    a.case.flag = 1;\n" + "    return;\n" + "}")', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function f(matchFn, fieldval, n){\n" + "    return (matchFn)?(matcharray = eval(matchFn+\"('\"+fieldval+\"','\"+n.id+\"')\")):void(0);\n" + "}\n")', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function f() { var x = 2; x ^= 2; x &= 2; x |= 2; " + "x &&= true; x ||= false; x *= 2; x /= 2; x %= 2; x += 2; x -= 2; " + "x <<= 2; x >>= 2; x >>>= 2; }")', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to this.js.parse(js)', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.findDescendantsOfType(ASTTryStatement.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:32 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:51:32 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 14:51:33 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:54:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:54:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='FunctionNode', cause='null'}
+2020-06-28 14:54:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:54:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:54:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:57 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:57 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='FunctionNode', cause='null'}
+2020-06-28 14:59:57 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:57 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:57 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:57 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='FunctionNode', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertOutputContaining cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertOutputContaining cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertOutputContaining cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function foo() { var a = 'a'; }")', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js18.parse("(function(x) x*x)")', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse(SOURCE_CODE)', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getBeginLine()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getBeginColumn()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getEndLine()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getEndColumn()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getFirstChildOfType(ASTFunctionNode.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getFirstDescendantOfType(ASTFunctionCall.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Scope', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: rule.apply(Arrays.asList(js.parse(source)), ctx), Parameter: Arrays.asList(js.parse(source))
+2020-06-28 14:59:58 ERROR Execute:61 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: Arrays.asList(js.parse(source)), Parameter: js.parse(source)
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse(source)', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Scope', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function a() { b['a'] = 1; c[1] = 2; }")', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.findDescendantsOfType(ASTElementGet.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function test(){\n" + "  a();      // OK\n" + "  b.c();    // OK\n" + "  d[0]();   // OK\n" + "  e[0].f(); // OK\n" + "  y.z[0](); // FAIL ==> java.lang.NullPointerException\n" + "}")', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='rootNode.findDescendantsOfType(ASTFunctionCall.class)', name='rootNode', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function f(a){\n" + "    a.case.flag = 1;\n" + "    return;\n" + "}")', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function f(matchFn, fieldval, n){\n" + "    return (matchFn)?(matcharray = eval(matchFn+\"('\"+fieldval+\"','\"+n.id+\"')\")):void(0);\n" + "}\n")', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function f() { var x = 2; x ^= 2; x &= 2; x |= 2; " + "x &&= true; x ||= false; x *= 2; x /= 2; x %= 2; x += 2; x -= 2; " + "x <<= 2; x >>= 2; x >>>= 2; }")', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to this.js.parse(js)', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.findDescendantsOfType(ASTTryStatement.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 14:59:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 14:59:59 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:00:35 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:03:48 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:57 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:57 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='FunctionNode', cause='null'}
+2020-06-28 15:05:57 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:57 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:57 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='FunctionNode', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertOutputContaining cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertOutputContaining cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertOutputContaining cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function foo() { var a = 'a'; }")', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js18.parse("(function(x) x*x)")', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse(SOURCE_CODE)', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getBeginLine()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getBeginColumn()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getEndLine()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getEndColumn()', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getFirstChildOfType(ASTFunctionNode.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.getFirstDescendantOfType(ASTFunctionCall.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Scope', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: rule.apply(Arrays.asList(js.parse(source)), ctx), Parameter: Arrays.asList(js.parse(source))
+2020-06-28 15:05:58 ERROR Execute:61 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: Arrays.asList(js.parse(source)), Parameter: js.parse(source)
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse(source)', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Scope', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function a() { b['a'] = 1; c[1] = 2; }")', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.findDescendantsOfType(ASTElementGet.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function test(){\n" + "  a();      // OK\n" + "  b.c();    // OK\n" + "  d[0]();   // OK\n" + "  e[0].f(); // OK\n" + "  y.z[0](); // FAIL ==> java.lang.NullPointerException\n" + "}")', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='rootNode.findDescendantsOfType(ASTFunctionCall.class)', name='rootNode', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function f(a){\n" + "    a.case.flag = 1;\n" + "    return;\n" + "}")', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function f(matchFn, fieldval, n){\n" + "    return (matchFn)?(matcharray = eval(matchFn+\"('\"+fieldval+\"','\"+n.id+\"')\")):void(0);\n" + "}\n")', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to js.parse("function f() { var x = 2; x ^= 2; x &= 2; x |= 2; " + "x &&= true; x ||= false; x *= 2; x /= 2; x %= 2; x += 2; x -= 2; " + "x <<= 2; x >>= 2; x >>>= 2; }")', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to this.js.parse(js)', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='node.findDescendantsOfType(ASTTryStatement.class)', name='node', cause='UnsolvedSymbolException{context='null', name='AstRoot', cause='null'}'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:61 - java.util.NoSuchElementException: No value present
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:58 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:59 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 15:05:59 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 15:05:59 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 15:05:59 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:59 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:59 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 15:05:59 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 15:05:59 ERROR Execute:54 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
