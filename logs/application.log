@@ -1,0 +1,426 @@
+2020-06-24 01:39:33 INFO  Execute:94 - checkstyle: JavaSolverStats Solved: 0 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 0 StackOverFlowError: 0
+2020-06-24 01:40:14 INFO  Execute:94 - checkstyle: JavaSolverStats Solved: 0 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 0 StackOverFlowError: 0
+2020-06-24 01:49:36 INFO  Execute:94 - checkstyle: JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 0 StackOverFlowError: 0
+2020-06-24 01:51:25 INFO  Execute:94 - checkstyle: JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 0 StackOverFlowError: 0
+2020-06-24 11:47:19 INFO  Execute:94 - checkstyle: JavaSolverStats Solved: 3 UnsolvedAssertions:0 UnsolvedWithoutJunit:0 Errors: 0 StackOverFlowError: 0
+2020-06-28 00:15:40 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-28 00:15:40 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:40 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.hamcrest.CoreMatchers', cause='null'}
+2020-06-28 00:15:40 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Assume.assumeTrue("tar command is not available", tarCheck.getExitCode() == 0)', name='Assume', cause='UnsolvedSymbolException{context='Assume', name='Solving Assume', cause='null'}'}
+2020-06-28 00:15:40 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Assume.assumeNoException("Unable to execute a shell command", ioe)', name='Assume', cause='UnsolvedSymbolException{context='Assume', name='Solving Assume', cause='null'}'}
+2020-06-28 00:15:43 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:43 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:43 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:43 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Logger', cause='null'}
+2020-06-28 00:15:43 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:43 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:43 ERROR Execute:63 - com.github.javaparser.resolution.MethodAmbiguityException: Ambiguous method call: cannot find a most applicable method: ReflectionMethodDeclaration{method=public java.io.File[] java.io.File.listFiles(java.io.FileFilter)}, ReflectionMethodDeclaration{method=public java.io.File[] java.io.File.listFiles(java.io.FilenameFilter)}
+2020-06-28 00:15:43 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='name.startsWith(HADOOP_BIN_UNPACKED_DIR_PREFIX)', name='name', cause='java.lang.RuntimeException: Error calculating the type of parameter (dir, name) -> name.startsWith(HADOOP_BIN_UNPACKED_DIR_PREFIX) of method call testBaseDir.listFiles((dir, name) -> name.startsWith(HADOOP_BIN_UNPACKED_DIR_PREFIX))'}
+2020-06-28 00:15:43 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='FileUtils.deleteQuietly(oldDir)', name='FileUtils', cause='UnsolvedSymbolException{context='FileUtils', name='Solving FileUtils', cause='null'}'}
+2020-06-28 00:15:43 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:43 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:15:43 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:43 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:43 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:15:43 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotSame cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:13 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:14 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}
+2020-06-28 00:43:14 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:14 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:14 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:14 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:14 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:15 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:15 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:15 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: frameworkMethod.getAnnotation(TestException.class), Parameter: TestException.class
+2020-06-28 00:43:16 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:16 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:16 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: fail("Expected Exception: " + klass.getSimpleName()), Parameter: "Expected Exception: " + klass.getSimpleName()
+2020-06-28 00:43:16 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:16 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:16 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:16 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: klass.isInstance(ex), Parameter: ex
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='LOG.info("Starting up YARN cluster")', name='LOG', cause='UnsolvedSymbolException{context='null', name='Logger', cause='null'}'}
+2020-06-28 00:43:16 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:16 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:16 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: Pattern.compile(regExp), Parameter: regExp
+2020-06-28 00:43:16 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='pattern.matcher(ex.getMessage()).find()', name='pattern.matcher(ex.getMessage())', cause='java.lang.RuntimeException: Error calculating the type of parameter ex.getMessage() of method call pattern.matcher(ex.getMessage())'}
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: pattern.matcher(ex.getMessage()), Parameter: ex.getMessage()
+2020-06-28 00:43:17 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:17 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: fail("Expected Exception Message pattern: " + regExp + " got message: " + ex.getMessage()), Parameter: "Expected Exception Message pattern: " + regExp + " got message: " + ex.getMessage()
+2020-06-28 00:43:17 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: fail("Expected Exception: " + klass.getSimpleName() + " got: " + ex.getClass().getSimpleName()), Parameter: "Expected Exception: " + klass.getSimpleName() + " got: " + ex.getClass().getSimpleName()
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:17 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='ex.getClass().getSimpleName()', name='ex.getClass()', cause='java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.'}
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:17 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:17 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: frameworkMethod.getAnnotation(TestException.class), Parameter: TestException.class
+2020-06-28 00:43:17 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:17 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:17 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Service', cause='null'}
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: fail("Expected Exception: " + klass.getSimpleName()), Parameter: "Expected Exception: " + klass.getSimpleName()
+2020-06-28 00:43:17 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:17 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='PowerMockito.spy(new AppCatalogSolrClient())', name='PowerMockito', cause='UnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}'}
+2020-06-28 00:43:17 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='RM_SCHEDULER_MINIMUM_ALLOCATION_MB', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: klass.isInstance(ex), Parameter: ex
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: Pattern.compile(regExp), Parameter: regExp
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='pattern.matcher(ex.getMessage()).find()', name='pattern.matcher(ex.getMessage())', cause='java.lang.RuntimeException: Error calculating the type of parameter ex.getMessage() of method call pattern.matcher(ex.getMessage())'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Logger', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: pattern.matcher(ex.getMessage()), Parameter: ex.getMessage()
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='CsiAdaptorProtos.VolumeCapability.newBuilder().setAccessMode(AccessMode.MULTI_NODE_READER_ONLY).setVolumeType(VolumeType.FILE_SYSTEM).build()', name='CsiAdaptorProtos.VolumeCapability.newBuilder().setAccessMode(AccessMode.MULTI_NODE_READER_ONLY).setVolumeType(VolumeType.FILE_SYSTEM)', cause='java.lang.RuntimeException: Error calculating the type of parameter VolumeType.FILE_SYSTEM of method call CsiAdaptorProtos.VolumeCapability.newBuilder().setAccessMode(AccessMode.MULTI_NODE_READER_ONLY).setVolumeType(VolumeType.FILE_SYSTEM)'}
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: fail("Expected Exception Message pattern: " + regExp + " got message: " + ex.getMessage()), Parameter: "Expected Exception Message pattern: " + regExp + " got message: " + ex.getMessage()
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: fail("Expected Exception: " + klass.getSimpleName() + " got: " + ex.getClass().getSimpleName()), Parameter: "Expected Exception: " + klass.getSimpleName() + " got: " + ex.getClass().getSimpleName()
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='YARN_MINICLUSTER_FIXED_PORTS', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='FILE_SYSTEM', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Keytab.loadKeytab(new File(workDir, "keytab")).getPrincipals()', name='Keytab.loadKeytab(new File(workDir, "keytab"))', cause='UnsolvedSymbolException{context='Keytab', name='Solving Keytab', cause='null'}'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Configuration', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='ex.getClass().getSimpleName()', name='ex.getClass()', cause='java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.'}
+2020-06-28 00:43:18 ERROR Execute:63 - java.lang.UnsupportedOperationException: CorrespondingDeclaration not available for unsolved symbol.
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Keytab.loadKeytab(new File(workDir, "keytab"))', name='Keytab', cause='UnsolvedSymbolException{context='Keytab', name='Solving Keytab', cause='null'}'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.mockito.Mockito', cause='null'}
+2020-06-28 00:43:18 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:18 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_ADDRESS', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ROUTER_CLIENTRM_INTERCEPTOR_CLASS_PIPELINE', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_WEBAPP_ADDRESS', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ROUTER_PIPELINE_CACHE_MAX_SIZE', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:19 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to yarnCluster.start()', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to yarnCluster.getConfig()', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='CompositeService', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to servicesToTeardown.close()', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='MULTI_NODE_READER_ONLY', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='SolrClient', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='PrincipalName', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='principalName.getName()', name='principalName', cause='UnsolvedSymbolException{context='null', name='PrincipalName', cause='null'}'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: LOG.info("MiniYARN ResourceManager published address: " + yarnClusterConfig.get(YarnConfiguration.RM_ADDRESS)), Parameter: "MiniYARN ResourceManager published address: " + yarnClusterConfig.get(YarnConfiguration.RM_ADDRESS)
+2020-06-28 00:43:20 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='when(spy, method(AppCatalogSolrClient.class, "getSolrClient")).withNoArguments()', name='when(spy, method(AppCatalogSolrClient.class, "getSolrClient"))', cause='java.lang.RuntimeException: Error calculating the type of parameter method(AppCatalogSolrClient.class, "getSolrClient") of method call when(spy, method(AppCatalogSolrClient.class, "getSolrClient"))'}
+2020-06-28 00:43:20 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:20 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.support.membermodification.MemberMatcher', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail("Failed to crete record")', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.powermock.api.support.membermodification.MemberMatcher', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='APPLICATION_HISTORY_STORE', cause='null'}
+2020-06-28 00:43:20 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='RM_ADDRESS', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='FileUtils.deleteDirectory(zkDir)', name='FileUtils', cause='UnsolvedSymbolException{context='FileUtils', name='Solving FileUtils', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Resources', name='Solving Resources', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.lang.RuntimeException: Unable to calculate the type of a parameter of a method call. Method call: LOG.info("MiniYARN ResourceManager published web address: " + yarnClusterConfig.get(YarnConfiguration.RM_WEBAPP_ADDRESS)), Parameter: "MiniYARN ResourceManager published web address: " + yarnClusterConfig.get(YarnConfiguration.RM_WEBAPP_ADDRESS)
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Resources.createResource(1024, 2)', name='Resources', cause='UnsolvedSymbolException{context='Resources', name='Solving Resources', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='RM_WEBAPP_ADDRESS', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='RM_WEBAPP_ADDRESS', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Configuration', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Configuration', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Resources', name='Solving Resources', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Resources.createResource(1024, 2)', name='Resources', cause='UnsolvedSymbolException{context='Resources', name='Solving Resources', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='solrClient.close()', name='solrClient', cause='UnsolvedSymbolException{context='null', name='SolrClient', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Configuration', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='CsiAdaptorProtos.VolumeCapability.newBuilder()', name='CsiAdaptorProtos.VolumeCapability', cause='UnsolvedSymbolException{context='null', name='VolumeCapability', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.jupiter.api.Assertions', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='applicationHistoryManagerImpl.start()', name='applicationHistoryManagerImpl', cause='UnsolvedSymbolException{context='null', name='ApplicationHistoryManagerImpl', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false).setVolumeId("test-vol-000001").setTargetPath("/mnt/data").setStagingTargetPath("/mnt/staging").setVolumeCapability(capability).build()', name='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false).setVolumeId("test-vol-000001").setTargetPath("/mnt/data").setStagingTargetPath("/mnt/staging").setVolumeCapability(capability)', cause='java.lang.RuntimeException: Error calculating the type of parameter capability of method call CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false).setVolumeId("test-vol-000001").setTargetPath("/mnt/data").setStagingTargetPath("/mnt/staging").setVolumeCapability(capability)'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='CsiAdaptorProtos.VolumeCapability', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='LOG.info("Yarn webapp is at " + webapp)', name='LOG', cause='UnsolvedSymbolException{context='null', name='Logger', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ClientBaseWithFixes', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ClientBaseWithFixes', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_TTL_ENABLE', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='applicationHistoryManagerImpl.getHistoryStore()', name='applicationHistoryManagerImpl', cause='UnsolvedSymbolException{context='null', name='ApplicationHistoryManagerImpl', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false).setVolumeId("test-vol-000001").setTargetPath("/mnt/data").setStagingTargetPath("/mnt/staging")', name='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false).setVolumeId("test-vol-000001").setTargetPath("/mnt/data")', cause='UnsolvedSymbolException{context='null', name='NodePublishVolumeRequest', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='applicationHistoryManagerImpl.stop()', name='applicationHistoryManagerImpl', cause='UnsolvedSymbolException{context='null', name='ApplicationHistoryManagerImpl', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false).setVolumeId("test-vol-000001").setTargetPath("/mnt/data")', name='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false).setVolumeId("test-vol-000001")', cause='UnsolvedSymbolException{context='null', name='NodePublishVolumeRequest', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false).setVolumeId("test-vol-000001")', name='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false)', cause='UnsolvedSymbolException{context='null', name='NodePublishVolumeRequest', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_ENTITYGROUP_FS_STORE_SUMMARY_ENTITY_TYPES', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='org.junit.jupiter.api.Assertions', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='config.addResource(ResourceEstimatorConfiguration.CONFIG_FILE)', name='config', cause='UnsolvedSymbolException{context='null', name='Configuration', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Configuration', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Configuration', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='RpcServerFactoryPBImpl.get()', name='RpcServerFactoryPBImpl', cause='UnsolvedSymbolException{context='null', name='org.junit.Assert', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_ENTITYGROUP_FS_STORE_APP_CACHE_SIZE', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder().setReadonly(false)', name='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder()', cause='UnsolvedSymbolException{context='null', name='NodePublishVolumeRequest', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='conf.set(MicroZookeeperServiceKeys.KEY_ZKSERVICE_DIR, zkDir.getAbsolutePath())', name='conf', cause='UnsolvedSymbolException{context='null', name='Configuration', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Configuration', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='CsiAdaptorProtos.NodePublishVolumeRequest.newBuilder()', name='CsiAdaptorProtos.NodePublishVolumeRequest', cause='UnsolvedSymbolException{context='null', name='NodePublishVolumeRequest', cause='null'}'}
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ServiceTestUtils.ServiceFSWatcher', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:21 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='ServerSocketUtil.getPort(9188, 10)', name='ServerSocketUtil', cause='UnsolvedSymbolException{context='ServerSocketUtil', name='Solving ServerSocketUtil', cause='null'}'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='yarnClusterConfig.writeXml(bytesOut)', name='yarnClusterConfig', cause='UnsolvedSymbolException{context='null', name='Configuration', cause='null'}'}
+2020-06-28 00:43:22 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertTrue cannot resolve', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Configuration', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_ENABLED', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_VERSION', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_READER_WEBAPP_ADDRESS', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:22 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='YARN_MINICLUSTER_USE_RPC', cause='null'}
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotNull cannot resolve', cause='null'}
+2020-06-28 00:43:23 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotEquals cannot resolve', cause='null'}
+2020-06-28 00:43:23 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertFalse cannot resolve', cause='null'}
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:23 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotEquals cannot resolve', cause='null'}
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:23 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_READER_CLASS', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='RM_ZK_TIMEOUT_MS', cause='null'}
+2020-06-28 00:43:23 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='util.getConfiguration()', name='util', cause='UnsolvedSymbolException{context='null', name='HBaseTestingUtility', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='context.scheduler.getAllComponents().entrySet().iterator().next().getValue()', name='context.scheduler.getAllComponents().entrySet().iterator().next()', cause='UnsolvedSymbolException{context='null', name='scheduler', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Configuration', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='context.scheduler.getAllComponents().entrySet().iterator().next()', name='context.scheduler.getAllComponents().entrySet().iterator()', cause='UnsolvedSymbolException{context='null', name='scheduler', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='context.scheduler.getAllComponents().entrySet().iterator()', name='context.scheduler.getAllComponents().entrySet()', cause='UnsolvedSymbolException{context='null', name='scheduler', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='context.scheduler.getAllComponents().entrySet()', name='context.scheduler.getAllComponents()', cause='UnsolvedSymbolException{context='null', name='scheduler', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='hbaseConf.set("input", "test")', name='hbaseConf', cause='UnsolvedSymbolException{context='null', name='Configuration', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNotEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='context.scheduler.getAllComponents()', name='context.scheduler', cause='UnsolvedSymbolException{context='null', name='scheduler', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to server.getServiceState()', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='hbaseConf.writeXml(bytesOut)', name='hbaseConf', cause='UnsolvedSymbolException{context='null', name='Configuration', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='conf.setInt("hfile.format.version", 3)', name='conf', cause='UnsolvedSymbolException{context='null', name='Configuration', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='util.startMiniCluster()', name='util', cause='UnsolvedSymbolException{context='null', name='HBaseTestingUtility', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='HBaseTestingUtility', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='util.getConfiguration()', name='util', cause='UnsolvedSymbolException{context='null', name='HBaseTestingUtility', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to server.stop()', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='getAMClient().registerApplicationMaster(request)', name='getAMClient()', cause='UnsolvedSymbolException{context='null', name='ClientBaseWithFixes', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='util.shutdownMiniCluster()', name='util', cause='UnsolvedSymbolException{context='null', name='HBaseTestingUtility', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ClientBaseWithFixes', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to zookeeper.start()', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='server.getServices().size()', name='server.getServices()', cause='java.lang.RuntimeException: Method 'getServices' cannot be resolved in context server.getServices() (line: 47) MethodCallExprContext{wrapped=server.getServices()}. Parameter types: []'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='util.getConfiguration()', name='util', cause='UnsolvedSymbolException{context='null', name='HBaseTestingUtility', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to server.getServices()', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='ApplicationId.newInstance(System.currentTimeMillis(), 1)', name='ApplicationId', cause='UnsolvedSymbolException{context='ApplicationId', name='Solving ApplicationId', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_ENABLED', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_VERSION', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to server.start()', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to server.getServiceState()', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='CompositeService', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to server.stop()', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to server.getServiceState()', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_READER_WEBAPP_ADDRESS', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='RM_CLUSTER_ID', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_READER_CLASS', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='ResourceInformation.newInstance(name)', name='ResourceInformation', cause='UnsolvedSymbolException{context='ResourceInformation', name='Solving ResourceInformation', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Mockito.mock(X509Certificate.class)', name='Mockito', cause='UnsolvedSymbolException{context='Mockito', name='Solving Mockito', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Mockito.mock(PrivateKey.class)', name='Mockito', cause='UnsolvedSymbolException{context='Mockito', name='Solving Mockito', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='TimelineEntityType.valueOf(context.getEntityType())', name='TimelineEntityType', cause='UnsolvedSymbolException{context='TimelineEntityType', name='Solving TimelineEntityType', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='We are unable to find the method declaration corresponding to server.stop()', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='TimelineEntityType.valueOf(context.getEntityType())', name='TimelineEntityType', cause='UnsolvedSymbolException{context='TimelineEntityType', name='Solving TimelineEntityType', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='getAMClient().finishApplicationMaster(request)', name='getAMClient()', cause='UnsolvedSymbolException{context='null', name='ClientBaseWithFixes', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ClientBaseWithFixes', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='LOG.info("setup thread sleep interrupted. message=" + e.getMessage())', name='LOG', cause='UnsolvedSymbolException{context='null', name='Logger', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='config.setInt("hfile.format.version", 3)', name='config', cause='UnsolvedSymbolException{context='null', name='Configuration', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='ApplicationId.newInstance(0, 1)', name='ApplicationId', cause='UnsolvedSymbolException{context='ApplicationId', name='Solving ApplicationId', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='TIMELINE_SERVICE_ENABLED', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertEquals cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ApplicationId', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ApplicationId', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='TimelineEntityType', name='Solving TimelineEntityType', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='ApplicationId', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='CompositeService', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='Assert.fail("Expected InvalidKeyException")', name='Assert', cause='UnsolvedSymbolException{context='Assert', name='Solving Assert', cause='null'}'}
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
+2020-06-28 00:43:24 ERROR Execute:63 - java.util.NoSuchElementException: No value present
+2020-06-28 00:43:24 ERROR Execute:56 - Unsolved ExceptionUnsolvedSymbolException{context='null', name='Assert statement: assertNull cannot resolve', cause='null'}
