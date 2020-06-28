@@ -4,6 +4,8 @@ import com.github.javaparser.symbolsolver.model.resolution.TypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.JavaParserTypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.ReflectionTypeSolver;
+import com.github.javaparser.utils.ProjectRoot;
+import com.github.javaparser.utils.SourceRoot;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -18,16 +20,15 @@ public class MethodTypeSolver {
     }
 
     // recursively add all the src dirs path to the solver src path
-    public void addSolverSrc(File[] files) {
-        for(File f: files) {
-            if(f.isDirectory() && !f.isFile()) {
-                this.cbSolver.add(new JavaParserTypeSolver(new File(f.getAbsolutePath())));
-                addSolverSrc(f.listFiles());
+    public void addSolverSrc(ProjectRoot p) {
+
+        for(SourceRoot s: p.getSourceRoots()) {
+            if(s.toString().contains("src/") ) {
+                this.cbSolver.add(new JavaParserTypeSolver(new File(s.getRoot().toString())));
             }
-            if (f.isDirectory() && f.getAbsolutePath().endsWith("src/test")) {
-                if(!this.testDirsPaths.contains(f.getAbsolutePath())) {
-                    this.testDirsPaths.add(f.getAbsolutePath());
-                }
+
+            if (s.toString().contains("src/test")) {
+                    this.testDirsPaths.add(s.getRoot().toString());
             }
         }
     }

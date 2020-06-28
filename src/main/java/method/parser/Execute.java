@@ -8,9 +8,13 @@ import com.github.javaparser.resolution.UnsolvedSymbolException;
 import com.github.javaparser.resolution.declarations.ResolvedMethodDeclaration;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.model.resolution.TypeSolver;
+import com.github.javaparser.symbolsolver.utils.SymbolSolverCollectionStrategy;
+import com.github.javaparser.utils.ParserCollectionStrategy;
+import com.github.javaparser.utils.ProjectRoot;
 import org.apache.log4j.Logger;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,12 +75,15 @@ public class Execute {
 
     public static void main(String[] args) {
 
-        File srcDir = new File(Settings.REPOS_PATH+args[0]);
+        File srcDir = new File(Settings.REPOS_PATH + args[0]);
         String repoName = args[0];
+
+        // Get all project root
+        ProjectRoot p = new ParserCollectionStrategy().collect(srcDir.toPath());
 
         // Intialize the solver by adding all the source path
         MethodTypeSolver mts = new MethodTypeSolver(srcDir);
-        mts.addSolverSrc(srcDir.listFiles());
+        mts.addSolverSrc(p);
         TypeSolver myTypeSolver = mts.getSolver();
 
         // Configure the JavaParser to use the solver for parsing
@@ -102,9 +109,12 @@ public class Execute {
         // Getting all the test directories path
         List<String> testPathsDirs = mts.getTestDirsPaths();
         for (String file : testPathsDirs) {
-            System.out.println("Start Processing test folder " + file);
-            Execute.listMethodCalls(new File(file));
-            System.out.println("Done Processing Test folder " + file);
+            Thread t= new Thread(() -> {
+                System.out.println("Start Processing test folder " + file);
+                Execute.listMethodCalls(new File(file));
+                System.out.println("Done Processing Test folder " + file);
+            });
+            t.start();
         }
     }
 }
