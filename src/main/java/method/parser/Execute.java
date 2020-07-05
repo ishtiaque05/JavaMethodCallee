@@ -33,7 +33,7 @@ public class Execute {
                         List<MethodCallExpr> callExprList = aMethod.findAll(MethodCallExpr.class);
                         tmethod.calledMethods = new ArrayList<CalledMethodInfo>();
                         testMethodsCount++;
-                        System.out.println("Current method: " + tmethod.methodName +"; Test Method Count " + testMethodsCount);
+                        System.out.println("Current method: " + tmethod.name +"; Test Method Count " + testMethodsCount);
                         for (MethodCallExpr callExpr : callExprList) {
                             calledMethodsCount++;
                             System.out.println("Called method Count " + calledMethodsCount);

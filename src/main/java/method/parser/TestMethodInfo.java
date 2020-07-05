@@ -3,7 +3,7 @@ package method.parser;
 import java.util.List;
 
 public class TestMethodInfo {
-    String methodName;
+    String name;
     String methodSignature;
     String path;
     int startline;
