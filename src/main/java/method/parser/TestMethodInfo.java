@@ -9,6 +9,5 @@ public class TestMethodInfo {
     int startline;
     int endline;
     List<CalledMethodInfo> calledMethods;
-
-
+    List<String> notFoundMethods;
 }

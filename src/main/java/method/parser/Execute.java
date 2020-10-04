@@ -11,10 +11,20 @@ import com.github.javaparser.symbolsolver.model.resolution.TypeSolver;
 import com.github.javaparser.utils.ParserCollectionStrategy;
 import com.github.javaparser.utils.ProjectRoot;
 import org.apache.log4j.Logger;
+import org.eclipse.jgit.api.errors.*;
+import util.readwrite.FileOperations;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.eclipse.jgit.api.Git;
+
 
 public class Execute {
     public static int errors = 0, unsolved = 0, solved = 0, assertionUnsolved = 0, StackOverFlowCount =0;
@@ -32,6 +42,7 @@ public class Execute {
                         TestMethodInfo tmethod = JSONFormatterHelper.getInfoModel(aMethod);
                         List<MethodCallExpr> callExprList = aMethod.findAll(MethodCallExpr.class);
                         tmethod.calledMethods = new ArrayList<CalledMethodInfo>();
+                        tmethod.notFoundMethods = new ArrayList<String>();
                         testMethodsCount++;
                         System.out.println("Current method: " + tmethod.name +"; Test Method Count " + testMethodsCount);
                         for (MethodCallExpr callExpr : callExprList) {
@@ -39,22 +50,23 @@ public class Execute {
                             System.out.println("Called method Count " + calledMethodsCount);
                             try {
                                 if(callExpr.getNameAsString().contains("assert")) {
-                                    throw  new UnsolvedSymbolException("Assert statement: "+callExpr.getNameAsString().toString() + " cannot resolve");
+                                    throw  new UnsolvedSymbolException(callExpr.getNameAsString().toString());
                                 }
                                 ResolvedMethodDeclaration resolvedMethod = callExpr.resolve();
                                 CalledMethodInfo cMethod = JSONFormatterHelper.getCalledMethodModel(callExpr, resolvedMethod);
                                 tmethod.calledMethods.add(cMethod);
                                 Execute.solved++;
                             } catch (UnsolvedSymbolException usym) {
+                                tmethod.notFoundMethods.add(usym.getName());
                                 if (usym.getName().contains("Assert")) {
                                     Execute.assertionUnsolved++;
                                 } else {
                                     Execute.unsolved++;
                                 }
                                 logger.error("Unsolved Exception" + usym);
-                            } catch(StackOverflowError e){
+                            } catch(StackOverflowError e) {
                                 Execute.StackOverFlowCount++;
-                                System.out.println("Caught stackoverflow error!");
+                                System.out.println("Caught stack overflow error!");
                             }
                             catch (Exception e) {
                                 Execute.errors++;
@@ -71,10 +83,47 @@ public class Execute {
         }).explore(projectDir);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        File srcDir = new File(Settings.REPOS_PATH+args[0]);
-        String repoName = args[0];
+        File f = new File(Settings.COMMITS_LIST_PATH);
+        String lines = FileOperations.loadAsString(f);
+        String[] commits = lines.split("\r\n|\r|\n");
+        for(String commit: commits) {
+            String repoPath = Settings.REPOS_PATH + args[0];
+            Execute.checkoutCMD(commit, repoPath);
+            Execute.init(args[0], repoPath, commit);
+        }
+
+    }
+
+    public static void checkoutCMD(String commit, String repoPath) {
+        try {
+            Git.open(new File(repoPath + "/.git"))
+                    .checkout().setName(commit).call();;
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InvalidRefNameException e) {
+            e.printStackTrace();
+        } catch (CheckoutConflictException e) {
+            e.printStackTrace();
+        } catch (RefAlreadyExistsException e) {
+            e.printStackTrace();
+        } catch (RefNotFoundException e) {
+            e.printStackTrace();
+        } catch (GitAPIException e) {
+            e.printStackTrace();
+        }
+//        try {
+////            git.checkout().setName("<id-to-commit>").call();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+    }
+
+    public static void init(String repoName, String repoPath, String commit) {
+        File srcDir = new File(Settings.REPOS_PATH + repoName);
 
         // Get all project root
         ProjectRoot p = new ParserCollectionStrategy().collect(srcDir.toPath());
@@ -92,15 +141,25 @@ public class Execute {
 
 //        Problematic file /home/siahmad/projects/def-rtholmes-ab/siahmad/repos/pmd/pmd-cs/src/test/java/net/sourceforge/pmd/cpd/CsTokenizerTest.java
 //        Uncomment below line to have stackoverflow error
-//        Execute.listMethodCalls(new File(Settings.REPOS_PATH+"/pmd/pmd-cs/src/test/java/net/sourceforge/pmd/cpd/"));
+//        Execute.listMethodCalls(new File(Settings.REPOS_PATH+"/pmd/pmd-cs/src/test/java/net/sourceforge/pmd/cpd/"));\
+        String outputDir = Settings.OUTPATH + repoName;
 
-        JsonWriter.writeToJSON(Settings.OUTPATH+repoName+".json", tmethods);
+        try {
+            Files.createDirectories(Paths.get(outputDir));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        JsonWriter.writeToJSON(outputDir + "/" + commit +".json", tmethods);
 
         logger.info(repoName+ ": JavaSolverStats Solved: "
                 +Execute.solved+ " UnsolvedAssertions:"+
                 Execute.assertionUnsolved +
                 " UnsolvedWithoutJunit:" +Execute.unsolved +
                 " Errors: "+ Execute.errors + " StackOverFlowError: " + Execute.StackOverFlowCount);
+
+        // For GC to pick up
+        tmethods = null;
+        tmethods = new ArrayList<TestMethodInfo>();
     }
 
     public static void startProcessing(MethodTypeSolver mts) {
