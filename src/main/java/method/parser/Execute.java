@@ -10,6 +10,7 @@ import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.model.resolution.TypeSolver;
 import com.github.javaparser.utils.ParserCollectionStrategy;
 import com.github.javaparser.utils.ProjectRoot;
+import jdk.nashorn.internal.ir.debug.JSONWriter;
 import org.apache.log4j.Logger;
 import org.eclipse.jgit.api.errors.*;
 import util.readwrite.FileOperations;
@@ -31,6 +32,7 @@ public class Execute {
     public static int testMethodsCount = 0, calledMethodsCount = 0;
     public static List<String> errsMsg = new ArrayList<String>();;
     public static List<TestMethodInfo> tmethods = new ArrayList<TestMethodInfo>();
+    public static List<String> proccessedCommits = new ArrayList<String>();
     final static Logger logger = Logger.getLogger(Execute.class);
     public static void listMethodCalls(File projectDir) {
         new DirExplorer((level, path, file) -> path.endsWith(".java"), (level, path, file) -> {
@@ -177,6 +179,8 @@ public class Execute {
             e.printStackTrace();
         }
         JsonWriter.writeToJSON(outputDir + "/" + commit +".json", tmethods);
+        proccessedCommits.add(commit);
+        JsonWriter.writeToFile(Settings.OUTPATH + '/' + "processed-" + Settings.REPO + ".json", proccessedCommits);
 
         logger.info(repoName+ ": JavaSolverStats Solved: "
                 +Execute.solved+ " UnsolvedAssertions:"+

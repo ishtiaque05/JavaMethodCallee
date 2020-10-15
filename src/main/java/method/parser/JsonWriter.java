@@ -21,4 +21,16 @@ public class JsonWriter {
 
         }
     }
+
+    public static void writeToFile(String outputPath, List<String> processedCommits) {
+        String json = new Gson().toJson(processedCommits);
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath));
+            writer.append(json);
+            writer.close();
+        }catch(Exception e){
+            //to-do
+
+        }
+    }
 }
