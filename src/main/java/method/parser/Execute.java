@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.jgit.api.Git;
-
+import org.apache.commons.cli.*;
 
 public class Execute {
     public static int errors = 0, unsolved = 0, solved = 0, assertionUnsolved = 0, StackOverFlowCount =0;
@@ -84,16 +84,50 @@ public class Execute {
     }
 
     public static void main(String[] args) throws IOException {
-
+        Execute.setArguments(args);
         File f = new File(Settings.COMMITS_LIST_PATH);
         String lines = FileOperations.loadAsString(f);
         String[] commits = lines.split("\r\n|\r|\n");
         for(String commit: commits) {
-            String repoPath = Settings.REPOS_PATH + args[0];
+            String repoPath = Settings.REPOS_PATH + Settings.REPO;
             Execute.checkoutCMD(commit, repoPath);
-            Execute.init(args[0], repoPath, commit);
+            Execute.init(Settings.REPO, repoPath, commit);
         }
 
+    }
+
+    private static void setArguments(String[] args) {
+        CommandLineParser parser = new DefaultParser();
+        Options options = new Options();
+        options.addOption("repoDir",true, "Folder path that contains all the repos");
+        options.addOption("repo",true, "Name of the repository");
+        options.addOption("out",true, "Filepath to save the processed file");
+        options.addOption("commitList",true, "Filepath that contains the commit list?");
+        CommandLine line = null;
+        try {
+            line = parser.parse(options, args);
+            String repoDir = line.getOptionValue("repoDir");
+            String repo = line.getOptionValue("repo");
+            String out = line.getOptionValue("out");
+            String commitList = line.getOptionValue("commitList");
+
+            if(repoDir!=null){
+                Settings.REPOS_PATH = repoDir;
+            }
+            if(repo != null){
+                Settings.REPO = repo;
+            }
+            if(commitList != null){
+                Settings.COMMITS_LIST_PATH = commitList;
+            }
+
+            if(out != null){
+                Settings.OUTPATH = out;
+            }
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void checkoutCMD(String commit, String repoPath) {
@@ -113,13 +147,6 @@ public class Execute {
         } catch (GitAPIException e) {
             e.printStackTrace();
         }
-//        try {
-////            git.checkout().setName("<id-to-commit>").call();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
     }
 
     public static void init(String repoName, String repoPath, String commit) {
