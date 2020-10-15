@@ -19,10 +19,14 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 
 import org.eclipse.jgit.api.Git;
 import org.apache.commons.cli.*;
@@ -87,14 +91,27 @@ public class Execute {
 
     public static void main(String[] args) throws IOException {
         Execute.setArguments(args);
-        File f = new File(Settings.COMMITS_LIST_PATH);
-        String lines = FileOperations.loadAsString(f);
-        String[] commits = lines.split("\r\n|\r|\n");
-        for(String commit: commits) {
-            String repoPath = Settings.REPOS_PATH + Settings.REPO;
-            Execute.checkoutCMD(commit, repoPath);
-            Execute.init(Settings.REPO, repoPath, commit);
+        List<String> commits = JsonWriter.readJSON(Settings.COMMITS_LIST_PATH);
+        boolean shouldSkip = false;
+        Path processedCommitFile = Paths.get(Settings.OUTPATH + "processed-" + Settings.REPO + ".json" );
+        if(Files.exists(processedCommitFile)) {
+            shouldSkip = true;
+            proccessedCommits = JsonWriter.readJSON(Settings.OUTPATH + "processed-" + Settings.REPO + ".json");
         }
+
+        for(String commit: commits) {
+            if(shouldSkip && proccessedCommits.contains(commit)) {
+                System.out.println("SKIPPING----"+ commit);
+                continue;
+            } else {
+                System.out.println("Running commit-----------" + commit);
+                String repoPath = Settings.REPOS_PATH + Settings.REPO;
+                Execute.checkoutCMD(commit, repoPath);
+                Execute.init(Settings.REPO, repoPath, commit);
+            }
+
+        }
+        System.out.println("Complete processing------------" + Settings.REPO);
 
     }
 
@@ -180,7 +197,7 @@ public class Execute {
         }
         JsonWriter.writeToJSON(outputDir + "/" + commit +".json", tmethods);
         proccessedCommits.add(commit);
-        JsonWriter.writeToFile(Settings.OUTPATH + '/' + "processed-" + Settings.REPO + ".json", proccessedCommits);
+        JsonWriter.writeToFile(Settings.OUTPATH + "processed-" + Settings.REPO + ".json", proccessedCommits);
 
         logger.info(repoName+ ": JavaSolverStats Solved: "
                 +Execute.solved+ " UnsolvedAssertions:"+
