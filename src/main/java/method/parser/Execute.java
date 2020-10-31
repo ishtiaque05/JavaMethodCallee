@@ -1,5 +1,6 @@
 package method.parser;
 
+import com.github.javaparser.ParserConfiguration;
 import com.github.javaparser.StaticJavaParser;
 import com.github.javaparser.ast.body.MethodDeclaration;
 import com.github.javaparser.ast.expr.MethodCallExpr;
@@ -50,10 +51,10 @@ public class Execute {
                         tmethod.calledMethods = new ArrayList<CalledMethodInfo>();
                         tmethod.notFoundMethods = new ArrayList<String>();
                         testMethodsCount++;
-                        System.out.println("Current method: " + tmethod.name +"; Test Method Count " + testMethodsCount);
+                        System.out.println("############## Current method: " + tmethod.name);
                         for (MethodCallExpr callExpr : callExprList) {
                             calledMethodsCount++;
-                            System.out.println("Called method Count " + calledMethodsCount);
+//                            System.out.println("Called method Count " + calledMethodsCount);
                             try {
                                 if(callExpr.getNameAsString().contains("assert")) {
                                     throw  new UnsolvedSymbolException(callExpr.getNameAsString().toString());
@@ -101,13 +102,24 @@ public class Execute {
 
         for(String commit: commits) {
             if(shouldSkip && proccessedCommits.contains(commit)) {
-                System.out.println("SKIPPING----"+ commit);
+                System.out.println("####################### SKIPPING----"+ commit);
                 continue;
             } else {
-                System.out.println("Running commit-----------" + commit);
+                System.out.println("######################## Running commit-----------" + commit);
                 String repoPath = Settings.REPOS_PATH + Settings.REPO;
                 Execute.checkoutCMD(commit, repoPath);
                 Execute.init(Settings.REPO, repoPath, commit);
+                System.out.println("################# ERROR STATS #######################");
+                System.out.println("JavaSolverStats Solved: " +Execute.solved+
+                        " UnsolvedAssertions: "+ Execute.assertionUnsolved +
+                        " UnsolvedWithoutJunit: " +Execute.unsolved +
+                        " Errors: "+ Execute.errors +
+                        " StackOverFlowError: " + Execute.StackOverFlowCount);
+                Execute.solved = 0;
+                Execute.assertionUnsolved = 0;
+                Execute.unsolved = 0;
+                Execute.errors = 0;
+                Execute.StackOverFlowCount = 0;
             }
 
         }
@@ -116,6 +128,10 @@ public class Execute {
     }
 
     private static void setArguments(String[] args) {
+//        Settings.REPOS_PATH = "/home/ishtiaque/Desktop/projects/Research/";
+//        Settings.REPO = "mockito";
+//        Settings.OUTPATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/";
+//        Settings.COMMITS_LIST_PATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/mockito.json";
         CommandLineParser parser = new DefaultParser();
         Options options = new Options();
         options.addOption("repoDir",true, "Folder path that contains all the repos");
@@ -180,7 +196,10 @@ public class Execute {
         TypeSolver myTypeSolver = mts.getSolver();
 
         // Configure the JavaParser to use the solver for parsing
+        ParserConfiguration parserConfiguration = new ParserConfiguration()
+                .setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_11);
         JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
+        StaticJavaParser.setConfiguration(parserConfiguration);
         StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
 
         Execute.startProcessing(mts);
