@@ -16,17 +16,20 @@ public class MethodTypeSolver {
     public List<String> testDirsPaths = new ArrayList<String>();
     public MethodTypeSolver(File srcDir) {
         // the solver uses ReflectionTypeSolver and Java file parser solver
-        this.cbSolver = new CombinedTypeSolver(new JavaParserTypeSolver(srcDir), new ReflectionTypeSolver());
+        this.cbSolver = new CombinedTypeSolver(new JavaParserTypeSolver(srcDir), new ReflectionTypeSolver(false));
     }
 
     // recursively add all the src dirs path to the solver src path
     public void addSolverSrc(ProjectRoot p) {
         for(SourceRoot s: p.getSourceRoots()) {
-            if(s.toString().contains("src/") ) {
+            String rootPath = s.getRoot().toString();
+            String[] r = rootPath.split("/");
+
+            if(s.getRoot().toString().contains("src/") || r[r.length - 1].contains("src")) {
                 this.cbSolver.add(new JavaParserTypeSolver(new File(s.getRoot().toString())));
             }
 
-            if (s.toString().contains("src/test")) {
+            if (s.getRoot().toString().contains("src/test") || r[r.length - 1].contains("test")) {
                 this.testDirsPaths.add(s.getRoot().toString());
             }
         }
