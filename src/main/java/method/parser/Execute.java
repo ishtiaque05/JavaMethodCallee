@@ -13,6 +13,7 @@ import com.github.javaparser.utils.ParserCollectionStrategy;
 import com.github.javaparser.utils.ProjectRoot;
 import jdk.nashorn.internal.ir.debug.JSONWriter;
 import org.apache.log4j.Logger;
+import org.eclipse.jgit.api.ResetCommand;
 import org.eclipse.jgit.api.errors.*;
 import util.readwrite.FileOperations;
 
@@ -70,14 +71,14 @@ public class Execute {
                                 } else {
                                     Execute.unsolved++;
                                 }
-                                logger.error("Unsolved Exception" + usym);
+//                                logger.error("Unsolved Exception" + usym);
                             } catch(StackOverflowError e) {
                                 Execute.StackOverFlowCount++;
                                 System.out.println("Caught stack overflow error!");
                             }
                             catch (Exception e) {
                                 Execute.errors++;
-                                logger.error(e);
+//                                logger.error(e);
                             }
                         }
                         tmethods.add(tmethod);
@@ -90,7 +91,7 @@ public class Execute {
         }).explore(projectDir);
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, GitAPIException {
         Execute.setArguments(args);
         List<String> commits = JsonWriter.readJSON(Settings.COMMITS_LIST_PATH);
         boolean shouldSkip = false;
@@ -105,7 +106,7 @@ public class Execute {
                 System.out.println("####################### SKIPPING----"+ commit);
                 continue;
             } else {
-                System.out.println("######################## Running commit-----------" + commit);
+                System.out.println("\n \n  **************** Running commit ******************* :" + commit);
                 String repoPath = Settings.REPOS_PATH + Settings.REPO;
                 Execute.checkoutCMD(commit, repoPath);
                 Execute.init(Settings.REPO, repoPath, commit);
@@ -129,9 +130,9 @@ public class Execute {
 
     private static void setArguments(String[] args) {
 //        Settings.REPOS_PATH = "/home/ishtiaque/Desktop/projects/Research/";
-//        Settings.REPO = "mockito";
+//        Settings.REPO = "commons-io";
 //        Settings.OUTPATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/";
-//        Settings.COMMITS_LIST_PATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/mockito.json";
+//        Settings.COMMITS_LIST_PATH = "/home/ishtiaque/Desktop/projects/ProcessCallGraph/data/commitList/all-commits-commons-io.json";
         CommandLineParser parser = new DefaultParser();
         Options options = new Options();
         options.addOption("repoDir",true, "Folder path that contains all the repos");
@@ -167,8 +168,10 @@ public class Execute {
 
     public static void checkoutCMD(String commit, String repoPath) {
         try {
-            Git.open(new File(repoPath + "/.git"))
-                    .checkout().setName(commit).call();;
+            Git git = Git.open(new File(repoPath + "/.git"));
+            git.checkout().setName(commit).call();
+            git.clean();
+            git.reset().setMode( ResetCommand.ResetType.HARD ).call();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (InvalidRefNameException e) {
@@ -197,7 +200,7 @@ public class Execute {
 
         // Configure the JavaParser to use the solver for parsing
         ParserConfiguration parserConfiguration = new ParserConfiguration()
-                .setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_11);
+                .setLanguageLevel(ParserConfiguration.LanguageLevel.RAW);
         JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
         StaticJavaParser.setConfiguration(parserConfiguration);
         StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
