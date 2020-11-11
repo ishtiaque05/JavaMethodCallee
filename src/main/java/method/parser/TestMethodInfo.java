@@ -10,4 +10,6 @@ public class TestMethodInfo {
     int endline;
     List<CalledMethodInfo> calledMethods;
     List<String> notFoundMethods;
+    List<String> junitMethods;
+    boolean shouldSkip;
 }
