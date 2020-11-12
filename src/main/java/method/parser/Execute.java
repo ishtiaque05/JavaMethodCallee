@@ -13,7 +13,9 @@ import com.github.javaparser.utils.ParserCollectionStrategy;
 import com.github.javaparser.utils.ProjectRoot;
 import jdk.nashorn.internal.ir.debug.JSONWriter;
 import org.apache.log4j.Logger;
+import org.eclipse.jgit.api.ResetCommand;
 import org.eclipse.jgit.api.errors.*;
+import util.git.GitHelper;
 import util.readwrite.FileOperations;
 
 import java.io.BufferedReader;
@@ -33,209 +35,53 @@ import org.eclipse.jgit.api.Git;
 import org.apache.commons.cli.*;
 
 public class Execute {
-    public static int errors = 0, unsolved = 0, solved = 0, assertionUnsolved = 0, StackOverFlowCount =0;
-    public static int testMethodsCount = 0, calledMethodsCount = 0;
-    public static List<String> errsMsg = new ArrayList<String>();;
-    public static List<TestMethodInfo> tmethods = new ArrayList<TestMethodInfo>();
-    public static List<String> proccessedCommits = new ArrayList<String>();
-    final static Logger logger = Logger.getLogger(Execute.class);
-    public static void listMethodCalls(File projectDir) {
-        new DirExplorer((level, path, file) -> path.endsWith(".java"), (level, path, file) -> {
-            System.out.println("Processing file:" + file.getAbsolutePath());
-            try {
-                new VoidVisitorAdapter<Object>() {
-                    @Override
-                    public void visit(MethodDeclaration aMethod, Object arg) {
-                        TestMethodInfo tmethod = JSONFormatterHelper.getInfoModel(aMethod);
-                        List<MethodCallExpr> callExprList = aMethod.findAll(MethodCallExpr.class);
-                        tmethod.calledMethods = new ArrayList<CalledMethodInfo>();
-                        tmethod.notFoundMethods = new ArrayList<String>();
-                        testMethodsCount++;
-                        System.out.println("############## Current method: " + tmethod.name);
-                        for (MethodCallExpr callExpr : callExprList) {
-                            calledMethodsCount++;
-//                            System.out.println("Called method Count " + calledMethodsCount);
-                            try {
-                                if(callExpr.getNameAsString().contains("assert")) {
-                                    throw  new UnsolvedSymbolException(callExpr.getNameAsString().toString());
-                                }
-                                ResolvedMethodDeclaration resolvedMethod = callExpr.resolve();
-                                CalledMethodInfo cMethod = JSONFormatterHelper.getCalledMethodModel(callExpr, resolvedMethod);
-                                tmethod.calledMethods.add(cMethod);
-                                Execute.solved++;
-                            } catch (UnsolvedSymbolException usym) {
-                                tmethod.notFoundMethods.add(usym.getName());
-                                if (usym.getName().contains("Assert")) {
-                                    Execute.assertionUnsolved++;
-                                } else {
-                                    Execute.unsolved++;
-                                }
-                                logger.error("Unsolved Exception" + usym);
-                            } catch(StackOverflowError e) {
-                                Execute.StackOverFlowCount++;
-                                System.out.println("Caught stack overflow error!");
-                            }
-                            catch (Exception e) {
-                                Execute.errors++;
-                                logger.error(e);
-                            }
-                        }
-                        tmethods.add(tmethod);
-                        super.visit(aMethod, arg);
-                    }
-                }.visit(StaticJavaParser.parse(file), null);
-            } catch (Exception e) {
-                logger.error(e);
-            }
-        }).explore(projectDir);
-    }
-
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         Execute.setArguments(args);
-        List<String> commits = JsonWriter.readJSON(Settings.COMMITS_LIST_PATH);
-        boolean shouldSkip = false;
-        Path processedCommitFile = Paths.get(Settings.OUTPATH + "processed-" + Settings.REPO + ".json" );
-        if(Files.exists(processedCommitFile)) {
-            shouldSkip = true;
-            proccessedCommits = JsonWriter.readJSON(Settings.OUTPATH + "processed-" + Settings.REPO + ".json");
+        if(Settings.filemode) {
+           FileParser.readAllTestGroupByCommit(Settings.COMMITS_LIST_PATH);
+        } else {
+            AllTestMethodsGenerator.execute();
         }
-
-        for(String commit: commits) {
-            if(shouldSkip && proccessedCommits.contains(commit)) {
-                System.out.println("####################### SKIPPING----"+ commit);
-                continue;
-            } else {
-                System.out.println("######################## Running commit-----------" + commit);
-                String repoPath = Settings.REPOS_PATH + Settings.REPO;
-                Execute.checkoutCMD(commit, repoPath);
-                Execute.init(Settings.REPO, repoPath, commit);
-                System.out.println("################# ERROR STATS #######################");
-                System.out.println("JavaSolverStats Solved: " +Execute.solved+
-                        " UnsolvedAssertions: "+ Execute.assertionUnsolved +
-                        " UnsolvedWithoutJunit: " +Execute.unsolved +
-                        " Errors: "+ Execute.errors +
-                        " StackOverFlowError: " + Execute.StackOverFlowCount);
-                Execute.solved = 0;
-                Execute.assertionUnsolved = 0;
-                Execute.unsolved = 0;
-                Execute.errors = 0;
-                Execute.StackOverFlowCount = 0;
-            }
-
-        }
-        System.out.println("Complete processing------------" + Settings.REPO);
 
     }
 
     private static void setArguments(String[] args) {
-//        Settings.REPOS_PATH = "/home/ishtiaque/Desktop/projects/Research/";
-//        Settings.REPO = "mockito";
-//        Settings.OUTPATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/";
-//        Settings.COMMITS_LIST_PATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/mockito.json";
-        CommandLineParser parser = new DefaultParser();
-        Options options = new Options();
-        options.addOption("repoDir",true, "Folder path that contains all the repos");
-        options.addOption("repo",true, "Name of the repository");
-        options.addOption("out",true, "Filepath to save the processed file");
-        options.addOption("commitList",true, "Filepath that contains the commit list?");
-        CommandLine line = null;
-        try {
-            line = parser.parse(options, args);
-            String repoDir = line.getOptionValue("repoDir");
-            String repo = line.getOptionValue("repo");
-            String out = line.getOptionValue("out");
-            String commitList = line.getOptionValue("commitList");
-
-            if(repoDir!=null){
-                Settings.REPOS_PATH = repoDir;
-            }
-            if(repo != null){
-                Settings.REPO = repo;
-            }
-            if(commitList != null){
-                Settings.COMMITS_LIST_PATH = commitList;
-            }
-
-            if(out != null){
-                Settings.OUTPATH = out;
-            }
-
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+        Settings.REPOS_PATH = "/home/ishtiaque/Desktop/projects/Research/";
+        Settings.REPO = "okhttp";
+        Settings.OUTPATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/";
+        Settings.COMMITS_LIST_PATH = "/home/ishtiaque/Desktop/projects/ProcessCallGraph/data/EvolData/all-test-okhttp.json";
+        Settings.filemode = true;
+//        CommandLineParser parser = new DefaultParser();
+//        Options options = new Options();
+//        options.addOption("repoDir",true, "Folder path that contains all the repos");
+//        options.addOption("repo",true, "Name of the repository");
+//        options.addOption("out",true, "Filepath to save the processed file");
+//        options.addOption("commitList",true, "Filepath that contains the commit list?");
+//        CommandLine line = null;
+//        try {
+//            line = parser.parse(options, args);
+//            String repoDir = line.getOptionValue("repoDir");
+//            String repo = line.getOptionValue("repo");
+//            String out = line.getOptionValue("out");
+//            String commitList = line.getOptionValue("commitList");
+//
+//            if(repoDir!=null){
+//                Settings.REPOS_PATH = repoDir;
+//            }
+//            if(repo != null){
+//                Settings.REPO = repo;
+//            }
+//            if(commitList != null){
+//                Settings.COMMITS_LIST_PATH = commitList;
+//            }
+//
+//            if(out != null){
+//                Settings.OUTPATH = out;
+//            }
+//
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
     }
 
-    public static void checkoutCMD(String commit, String repoPath) {
-        try {
-            Git.open(new File(repoPath + "/.git"))
-                    .checkout().setName(commit).call();;
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (InvalidRefNameException e) {
-            e.printStackTrace();
-        } catch (CheckoutConflictException e) {
-            e.printStackTrace();
-        } catch (RefAlreadyExistsException e) {
-            e.printStackTrace();
-        } catch (RefNotFoundException e) {
-            e.printStackTrace();
-        } catch (GitAPIException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static void init(String repoName, String repoPath, String commit) {
-        File srcDir = new File(Settings.REPOS_PATH + repoName);
-
-        // Get all project root
-        ProjectRoot p = new ParserCollectionStrategy().collect(srcDir.toPath());
-
-        // Intialize the solver by adding all the source path
-        MethodTypeSolver mts = new MethodTypeSolver(srcDir);
-        mts.addSolverSrc(p);
-        TypeSolver myTypeSolver = mts.getSolver();
-
-        // Configure the JavaParser to use the solver for parsing
-        ParserConfiguration parserConfiguration = new ParserConfiguration()
-                .setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_11);
-        JavaSymbolSolver symbolSolver = new JavaSymbolSolver(myTypeSolver);
-        StaticJavaParser.setConfiguration(parserConfiguration);
-        StaticJavaParser.getConfiguration().setSymbolResolver(symbolSolver);
-
-        Execute.startProcessing(mts);
-
-//        Problematic file /home/siahmad/projects/def-rtholmes-ab/siahmad/repos/pmd/pmd-cs/src/test/java/net/sourceforge/pmd/cpd/CsTokenizerTest.java
-//        Uncomment below line to have stackoverflow error
-//        Execute.listMethodCalls(new File(Settings.REPOS_PATH+"/pmd/pmd-cs/src/test/java/net/sourceforge/pmd/cpd/"));\
-        String outputDir = Settings.OUTPATH + repoName;
-
-        try {
-            Files.createDirectories(Paths.get(outputDir));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        JsonWriter.writeToJSON(outputDir + "/" + commit +".json", tmethods);
-        proccessedCommits.add(commit);
-        JsonWriter.writeToFile(Settings.OUTPATH + "processed-" + Settings.REPO + ".json", proccessedCommits);
-
-        logger.info(repoName+ ": JavaSolverStats Solved: "
-                +Execute.solved+ " UnsolvedAssertions:"+
-                Execute.assertionUnsolved +
-                " UnsolvedWithoutJunit:" +Execute.unsolved +
-                " Errors: "+ Execute.errors + " StackOverFlowError: " + Execute.StackOverFlowCount);
-
-        // For GC to pick up
-        tmethods = null;
-        tmethods = new ArrayList<TestMethodInfo>();
-    }
-
-    public static void startProcessing(MethodTypeSolver mts) {
-        // Getting all the test directories path
-        List<String> testPathsDirs = mts.getTestDirsPaths();
-        for (String file : testPathsDirs) {
-            System.out.println("Start Processing test folder " + file);
-            Execute.listMethodCalls(new File(file));
-            System.out.println("Done Processing Test folder " + file);
-        }
-    }
 }

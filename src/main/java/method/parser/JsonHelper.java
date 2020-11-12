@@ -2,7 +2,9 @@ package method.parser;
 
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
+import com.google.gson.internal.LinkedTreeMap;
 import com.google.gson.stream.JsonReader;
+import netscape.javascript.JSObject;
 
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
@@ -11,8 +13,9 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.lang.reflect.Type;
+import java.util.TreeMap;
 
-public class JsonWriter {
+public class JsonHelper {
     public static void writeToJSON(String outputPath, List<TestMethodInfo> methods) {
         String json = new Gson().toJson(methods);
         try {
@@ -48,5 +51,12 @@ public class JsonWriter {
         commits = gson.fromJson(reader, type);
 
         return commits;
+    }
+
+    public static LinkedTreeMap readJSONObject(String jsonFilePath) throws FileNotFoundException {
+        Gson gson = new Gson();
+        JsonReader reader = new JsonReader(new FileReader(jsonFilePath));
+        LinkedTreeMap result = (new Gson()).fromJson(reader, Object.class);
+        return result;
     }
 }
