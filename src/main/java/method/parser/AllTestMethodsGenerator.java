@@ -134,7 +134,7 @@ public class AllTestMethodsGenerator {
         }
     }
 
-    public static void execute() throws FileNotFoundException {
+    public static void execute() throws Exception {
         List<String> commits = JsonHelper.readJSON(Settings.COMMITS_LIST_PATH);
         boolean shouldSkip = false;
         Path processedCommitFile = Paths.get(Settings.OUTPATH + "processed-" + Settings.REPO + ".json" );

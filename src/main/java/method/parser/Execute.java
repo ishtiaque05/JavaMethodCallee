@@ -35,7 +35,7 @@ import org.eclipse.jgit.api.Git;
 import org.apache.commons.cli.*;
 
 public class Execute {
-    public static void main(String[] args) throws IOException, GitAPIException {
+    public static void main(String[] args) throws Exception {
         Execute.setArguments(args);
         if(Settings.filemode) {
            FileParser.readAllTestGroupByCommit(Settings.COMMITS_LIST_PATH);
@@ -46,10 +46,10 @@ public class Execute {
     }
 
     private static void setArguments(String[] args) {
-        Settings.REPOS_PATH = "/home/ishtiaque/Desktop/";
-        Settings.REPO = "calculator-example";
+        Settings.REPOS_PATH = "/home/ishtiaque/Desktop/projects/Research/";
+        Settings.REPO = "okhttp";
         Settings.OUTPATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/";
-        Settings.COMMITS_LIST_PATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/test.json";
+        Settings.COMMITS_LIST_PATH = "/home/ishtiaque/Desktop/projects/ProcessCallGraph/data/EvolData/all-test-okhttp.json";
         Settings.filemode = true;
 //        CommandLineParser parser = new DefaultParser();
 //        Options options = new Options();

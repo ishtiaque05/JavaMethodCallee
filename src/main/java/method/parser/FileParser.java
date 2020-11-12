@@ -34,7 +34,7 @@ public class FileParser {
     public static List<String> errsMsg = new ArrayList<String>();;
     public static List<TestMethodInfo> tmethods = new ArrayList<TestMethodInfo>();
     public static List<String> proccessedCommits = new ArrayList<String>();
-    final static Logger logger = Logger.getLogger(FileParser.class);
+//    final static Logger logger = Logger.getLogger(FileParser.class);
 
 
     public static void readAllTestGroupByCommit(String jsonPath) throws FileNotFoundException {
@@ -45,30 +45,35 @@ public class FileParser {
             proccessedCommits = JsonHelper.readJSON(Settings.OUTPATH + "processed-" + Settings.REPO + ".json");
         }
         for(Map.Entry<String, Object> entry : allTest.entrySet()) {
-            String commit = entry.getKey();
-            ArrayList testMethods = (ArrayList) entry.getValue();
-            GitHelper.checkoutCMD(commit, repoPath);
-            FileParser.initJavaParser(Settings.REPO);
-            List<String> proccessedFiles = new ArrayList<String>();
-            if(proccessedCommits.contains(commit)) {
-                System.out.println("######################### Skipping commit: " + commit);
-                continue;
-            } else {
-                for(int i = 0; i < testMethods.size() ; i++) {
-                    IdentificationModel im = new IdentificationModel();
-                    im.name = (String)((LinkedTreeMap) testMethods.get(i)).get("name");
-                    im.path = (String)((LinkedTreeMap) testMethods.get(i)).get("path");
-                    im.startline = (Double) ((LinkedTreeMap) testMethods.get(i)).get("startline");
-                    im.fileId = (String)((LinkedTreeMap) testMethods.get(i)).get("fileId");
-                    if (proccessedFiles.contains(im.path)) {
-                        continue;
-                    } else {
-                        FileParser.startProcessing(repoPath + "/" + im.path, commit, im);
-                        proccessedFiles.add(im.path);
+            try {
+                String commit = entry.getKey();
+                List<String> proccessedFiles = new ArrayList<String>();
+                if (proccessedCommits.contains(commit)) {
+                    System.out.println("######################### Skipping commit: " + commit);
+                    continue;
+                } else {
+                    System.out.println("************************ Processing commit: " + commit);
+                    ArrayList testMethods = (ArrayList) entry.getValue();
+                    GitHelper.checkoutCMD(commit, repoPath);
+                    FileParser.initJavaParser(Settings.REPO);
+                    for (int i = 0; i < testMethods.size(); i++) {
+                        IdentificationModel im = new IdentificationModel();
+                        im.name = (String) ((LinkedTreeMap) testMethods.get(i)).get("name");
+                        im.path = (String) ((LinkedTreeMap) testMethods.get(i)).get("path");
+                        im.startline = (Double) ((LinkedTreeMap) testMethods.get(i)).get("startline");
+                        im.fileId = (String) ((LinkedTreeMap) testMethods.get(i)).get("fileId");
+                        if (proccessedFiles.contains(im.path)) {
+                            continue;
+                        } else {
+                            FileParser.startProcessing(repoPath + "/" + im.path, commit, im);
+                            proccessedFiles.add(im.path);
+                        }
                     }
                 }
+                proccessedFiles = null;
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-            proccessedFiles = null;
         }
 
     }
@@ -103,15 +108,24 @@ public class FileParser {
         proccessedCommits.add(commit);
         JsonHelper.writeToFile(Settings.OUTPATH + "processed-" + Settings.REPO + ".json", proccessedCommits);
 
-        logger.info(Settings.REPO + ": JavaSolverStats Solved: "
+        System.out.println(Settings.REPO + ": JavaSolverStats Solved: "
                 +FileParser.solved+ " UnsolvedAssertions:"+
                 FileParser.assertionUnsolved +
                 " UnsolvedWithoutJunit:" + FileParser.unsolved +
                 " Errors: "+ FileParser.errors + " StackOverFlowError: " + FileParser.StackOverFlowCount);
 
         // For GC to pick up
+        FileParser.setToZero();
         tmethods = null;
         tmethods = new ArrayList<TestMethodInfo>();
+    }
+
+    public static void setToZero() {
+        FileParser.errors = 0;
+        FileParser.unsolved = 0;
+        FileParser.solved = 0;
+        FileParser.assertionUnsolved = 0;
+        FileParser.StackOverFlowCount =0;
     }
 
     public static void fetchFanout(MethodTypeSolver mts, String commit, IdentificationModel im) {
