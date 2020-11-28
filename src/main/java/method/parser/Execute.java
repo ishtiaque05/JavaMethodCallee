@@ -46,42 +46,42 @@ public class Execute {
     }
 
     private static void setArguments(String[] args) {
-        Settings.REPOS_PATH = "/home/ishtiaque/Desktop/projects/Research/";
-        Settings.REPO = "okhttp";
-        Settings.OUTPATH = "/home/ishtiaque/Desktop/projects/JavaMethodCallee/data/";
-        Settings.COMMITS_LIST_PATH = "/home/ishtiaque/Desktop/projects/ProcessCallGraph/data/EvolData/all-test-okhttp.json";
+//        Settings.REPOS_PATH = "/home/ishtiaque/Desktop/projects/Research/";
+//        Settings.REPO = "elasticsearch";
+//        Settings.OUTPATH = "/home/ishtiaque/Desktop/projects/GitlabData/callGraphData/";
+//        Settings.COMMITS_LIST_PATH = "/home/ishtiaque/Desktop/projects/ProcessCallGraph/data/EvolData/all-test-elasticsearch.json";
         Settings.filemode = true;
-//        CommandLineParser parser = new DefaultParser();
-//        Options options = new Options();
-//        options.addOption("repoDir",true, "Folder path that contains all the repos");
-//        options.addOption("repo",true, "Name of the repository");
-//        options.addOption("out",true, "Filepath to save the processed file");
-//        options.addOption("commitList",true, "Filepath that contains the commit list?");
-//        CommandLine line = null;
-//        try {
-//            line = parser.parse(options, args);
-//            String repoDir = line.getOptionValue("repoDir");
-//            String repo = line.getOptionValue("repo");
-//            String out = line.getOptionValue("out");
-//            String commitList = line.getOptionValue("commitList");
-//
-//            if(repoDir!=null){
-//                Settings.REPOS_PATH = repoDir;
-//            }
-//            if(repo != null){
-//                Settings.REPO = repo;
-//            }
-//            if(commitList != null){
-//                Settings.COMMITS_LIST_PATH = commitList;
-//            }
-//
-//            if(out != null){
-//                Settings.OUTPATH = out;
-//            }
-//
-//        } catch (ParseException e) {
-//            e.printStackTrace();
-//        }
+        CommandLineParser parser = new DefaultParser();
+        Options options = new Options();
+        options.addOption("repoDir",true, "Folder path that contains all the repos");
+        options.addOption("repo",true, "Name of the repository");
+        options.addOption("out",true, "Filepath to save the processed file");
+        options.addOption("commitList",true, "Filepath that contains the commit list?");
+        CommandLine line = null;
+        try {
+            line = parser.parse(options, args);
+            String repoDir = line.getOptionValue("repoDir");
+            String repo = line.getOptionValue("repo");
+            String out = line.getOptionValue("out");
+            String commitList = line.getOptionValue("commitList");
+
+            if(repoDir!=null){
+                Settings.REPOS_PATH = repoDir;
+            }
+            if(repo != null){
+                Settings.REPO = repo;
+            }
+            if(commitList != null){
+                Settings.COMMITS_LIST_PATH = commitList;
+            }
+
+            if(out != null){
+                Settings.OUTPATH = out;
+            }
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
     }
 
 }

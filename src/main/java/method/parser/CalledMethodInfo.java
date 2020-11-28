@@ -7,6 +7,9 @@ public class CalledMethodInfo {
     String fullQualifiedSignature;
     String signature;
     String path;
+    String formattedMethodSignature;
+    String methodSignatureAsString;
+    String actualCodeAsString;
     int startline;
     int endline;
 }
